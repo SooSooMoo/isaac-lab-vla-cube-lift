@@ -21,7 +21,7 @@
 - [`above_trimmed.mp4`](result/evidence/videos/above_trimmed.mp4)：above 動画
 - [`pick_trimmed.mp4`](result/evidence/videos/pick_trimmed.mp4)：pick 動画
 
-ユーザーが元動画の動きを確認し、今回の編集版の採用を了承しました。実時間50fps。末尾のみカットし、静止画追加・倍速・動作の差し替えはしていません。
+実時間50fps。末尾のみカットし、静止画追加・倍速・動作の差し替えはしていません。
 
 ## 結果（2026年9月18日）
 
