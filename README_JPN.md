@@ -1,6 +1,6 @@
 # Isaac Lab：画像と言語でcubeを操作する共通VLA
 
-**同じモデル構成で「cubeの上へ移動」と「cubeを持ち上げる」を実行。固定初期状態で、両タスクの数値基準と再実行一致を確認しました。**
+**同じモデル構成で「cubeの上へ移動」と「cubeを持ち上げる」を実行。**
 <table>
   <tr>
     <td align="center">
@@ -17,6 +17,18 @@
 [English](README_ENG.md) · [実装](document/method.md) · [再現手順](document/reproduction.md) · [検証記録](result/evidence/README.md)
 
 ## デモ動画
+<table>
+  <tr>
+    <td align="center">
+      <img src="result/evidence/videos/above_trimmed.mp4" width="100%">
+      <br><b>上方カメラ視点 (above)</b>
+    </td>
+    <td align="center">
+      <img src="result/evidence/videos/pick_trimmed.mp4" width="100%">
+      <br><b>ピック動作視点 (pick)</b>
+    </td>
+  </tr>
+</table>
 
 - [`above_trimmed.mp4`](result/evidence/videos/above_trimmed.mp4)：above 動画
 - [`pick_trimmed.mp4`](result/evidence/videos/pick_trimmed.mp4)：pick 動画
