@@ -20,11 +20,11 @@
 <table>
   <tr>
     <td align="center">
-      <img src="result/evidence/videos/above_trimmed.mp4" width="100%">
+      <video src="result/evidence/videos/above_trimmed.mp4" width="100%">
       <br><b>上方カメラ視点 (above)</b>
     </td>
     <td align="center">
-      <img src="result/evidence/videos/pick_trimmed.mp4" width="100%">
+      <video src="result/evidence/videos/pick_trimmed.mp4" width="100%">
       <br><b>ピック動作視点 (pick)</b>
     </td>
   </tr>
