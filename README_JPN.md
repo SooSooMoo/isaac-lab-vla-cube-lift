@@ -6,7 +6,10 @@
 
 ## デモ動画
 
-- [`above_trimmed.mp4`](result/evidence/videos/above_trimmed.mp4)：above 動画 
+- [`above_trimmed.mp4`](result/evidence/videos/above_trimmed.mp4)：above 動画
+<video src="result/evidence/videos/above_trimmed.mp4" controls width="100%" muted autoplay loop>
+  お使いのブラウザは video タグをサポートしていません。
+</video>
 - [`pick_trimmed.mp4`](result/evidence/videos/pick_trimmed.mp4)：pick 動画
 
 ユーザーが元動画の動きを確認し、今回の編集版の採用を了承しました。実時間50fps。末尾のみカットし、静止画追加・倍速・動作の差し替えはしていません。
