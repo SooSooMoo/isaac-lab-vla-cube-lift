@@ -2,6 +2,8 @@
 
 **同じモデル構成で「cubeの上へ移動」と「cubeを持ち上げる」を実行。固定初期状態で、両タスクの数値基準と再実行一致を確認しました。**
 
+![above](result/evidence/videos/above.png) ![pick](result/evidence/videos/pick.png) 
+
 [English](README_ENG.md) · [実装](document/method.md) · [再現手順](document/reproduction.md) · [検証記録](result/evidence/README.md)
 
 ## デモ動画
