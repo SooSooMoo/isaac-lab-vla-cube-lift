@@ -14,8 +14,6 @@
   </tr>
 </table>
 
-![above](result/evidence/videos/above.png) ![pick](result/evidence/videos/pick.png) 
-
 [English](README_ENG.md) · [実装](document/method.md) · [再現手順](document/reproduction.md) · [検証記録](result/evidence/README.md)
 
 ## デモ動画
