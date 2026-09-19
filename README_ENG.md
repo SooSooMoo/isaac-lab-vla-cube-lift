@@ -1,4 +1,4 @@
-# Isaac Lab: language-conditioned cube manipulation
+# Isaac Lab : VLA : language-conditioned cube manipulation
 
 **One shared model stack performs two instructions: move above a cube and pick it up.**
 
