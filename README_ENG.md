@@ -33,7 +33,7 @@ code/: Model, inference, training, evaluation, video processing
 datasets/: Examples of raw images, data structure
 result/: Model identification details, validation records, videos
 document/: Methodology, environment, reproduction steps, update history
-history/: Folder for history management. Original project: isaac-lab-vla-cube-lift_1.
+history/: Folder for history management.: isaac-lab-vla-cube-lift_1：[isaac-lab-vla-cube-lift_1](history/isaac-lab-vla-cube-lift_1)。
 
 ## Notes
 
