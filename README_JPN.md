@@ -36,11 +36,7 @@
 - `datasets/`：元データの画像例、データ構成
 - `result/`：モデルの識別情報、検証記録、動画
 - `document/`：方法、環境、再現手順、更新履歴
-- `history/`：履歴管理用フォルダ。旧版の実体は外部バックアップに保存
-
-[モデル識別情報](result/model/manifest.json) · [公開前確認](document/release_checklist.md)
-
-元プロジェクト：[isaac-lab-vla-cube-lift_1](https://github.com/SooSooMoo/isaac-lab-vla-cube-lift_1)。タスク専用の小規模な言語条件付き方策であり、基盤VLAモデルのベンチマークではありません。
+- `history/`：履歴管理用フォルダ。元プロジェクト：[isaac-lab-vla-cube-lift_1](history/isaac-lab-vla-cube-lift_1)。
 
 ## 備考
 
