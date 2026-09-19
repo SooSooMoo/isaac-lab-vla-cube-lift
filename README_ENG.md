@@ -2,6 +2,19 @@
 
 **One shared model stack performs two instructions: move above a cube and pick it up.**
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="result/evidence/videos/above.png" width="100%">
+      <br><b> above </b>
+    </td>
+    <td align="center">
+      <img src="result/evidence/videos/pick.png" width="100%">
+      <br><b> pick </b>
+    </td>
+  </tr>
+</table>
+
 [日本語](README_JPN.md) · [Method](document/method.md) · [Reproduction](document/reproduction.md)
 
 | Instruction | Reported result | Criterion | Steps |
