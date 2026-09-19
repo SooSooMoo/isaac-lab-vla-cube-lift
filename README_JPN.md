@@ -1,6 +1,6 @@
 # Isaac Lab：画像と言語でcubeを操作する共通VLA
 
-**同じモデル構成で「cubeの上へ移動」と「cubeを持ち上げる」を実行。**
+**同じモデルで「cubeの上へ移動」と「cubeを持ち上げる」を実行 **
 <table>
   <tr>
     <td align="center">
