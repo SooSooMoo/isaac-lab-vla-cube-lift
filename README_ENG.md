@@ -27,6 +27,14 @@ With three seconds of continued inference, above drifts and pick drops the cube.
 
 The previous snapshot is retained in an external backup; the history directory is reserved for future records. It is superseded by the September 18 numerical results and September 19 video edits. This task-specific policy is not a foundation-model VLA benchmark.
 
+## Folders
+
+code/: Model, inference, training, evaluation, video processing
+datasets/: Examples of raw images, data structure
+result/: Model identification details, validation records, videos
+document/: Methodology, environment, reproduction steps, update history
+history/: Folder for history management. Original project: isaac-lab-vla-cube-lift_1.
+
 ## Notes
 
 Moved and backed up the large dataset (two_instruction.hdf5) and trained model checkpoint (shared_full_candidate.pt) to the backup directory (isaac-lab-vla-cube-lift_bk_data_and_model).
