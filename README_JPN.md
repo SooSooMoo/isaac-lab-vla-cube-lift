@@ -1,4 +1,4 @@
-# Isaac Lab：画像と言語でcubeを操作する共通VLA
+# Isaac Lab：画像と言語でcubeを操作するVLA
 
 **同じモデルで「cubeの上へ移動」と「cubeを持ち上げる」を実行 **
 <table>
