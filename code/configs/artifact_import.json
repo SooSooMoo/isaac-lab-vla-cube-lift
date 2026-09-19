@@ -1,0 +1,140 @@
+{
+  "artifacts": [
+    {
+      "role": "base",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/gripper_actual_fix_20260917_142308_983342/shared_full_candidate.pt",
+      "destination": "result/model/shared_full_candidate.pt",
+      "sha256": "3ad705b1224f552ccf6988364f5c9894fb55ab1003f390e5d04719033142177c",
+      "required": true
+    },
+    {
+      "role": "visual_adapter",
+      "source": "/workspace/step3/visual_consistency13_th1jfnmy/visual_adapter.pt",
+      "destination": "result/model/visual_adapter.pt",
+      "sha256": "aee282b49bc44f0d57255c16e994c402d97cb00621a2bc0190b6e43c9fb71f23",
+      "required": true
+    },
+    {
+      "role": "gripper_correction",
+      "source": "/workspace/step3/retention_gripper_da00uipp/gripper_correction.pt",
+      "destination": "result/model/gripper_correction.pt",
+      "sha256": "48fc3c58dea3deaef9fbae6d1208d7df522967ff841162f5077f88eab0143863",
+      "required": true
+    },
+    {
+      "role": "xy_attenuation",
+      "source": "/workspace/step3/learned_xy_attenuation__zkv0syj/xy_attenuation.pt",
+      "destination": "result/model/xy_attenuation.pt",
+      "sha256": "0f5b74efb4c9f34be3a9ab6b8985117869d8e6e1ff9565a1ab277f88ec2e3de5",
+      "required": true
+    },
+    {
+      "role": "evidence",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/verify_xy_attenuation1300_pick_20260918_173544_857706_JST/results.json",
+      "destination": "result/evidence/verification/pick.json",
+      "required": true
+    },
+    {
+      "role": "trace",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/verify_xy_attenuation1300_pick_20260918_173544_857706_JST/pick/teacher_trace.npz",
+      "destination": "result/evidence/verification/pick_trace.npz",
+      "required": false
+    },
+    {
+      "role": "evidence",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/verify_xy_attenuation_above_20260918_174047_971979_JST/results.json",
+      "destination": "result/evidence/verification/above.json",
+      "required": true
+    },
+    {
+      "role": "trace",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/verify_xy_attenuation_above_20260918_174047_971979_JST/above/teacher_trace.npz",
+      "destination": "result/evidence/verification/above_trace.npz",
+      "required": false
+    },
+    {
+      "role": "evidence",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/repeat_xy_attenuation_pick_20260918_174405_066717_JST/results.json",
+      "destination": "result/evidence/verification/repeat_pick.json",
+      "required": true
+    },
+    {
+      "role": "trace",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/repeat_xy_attenuation_pick_20260918_174405_066717_JST/pick/teacher_trace.npz",
+      "destination": "result/evidence/verification/repeat_pick_trace.npz",
+      "required": false
+    },
+    {
+      "role": "evidence",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/repeat_xy_attenuation_above_20260918_174536_673230_JST/results.json",
+      "destination": "result/evidence/verification/repeat_above.json",
+      "required": true
+    },
+    {
+      "role": "trace",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/repeat_xy_attenuation_above_20260918_174536_673230_JST/above/teacher_trace.npz",
+      "destination": "result/evidence/verification/repeat_above_trace.npz",
+      "required": false
+    },
+    {
+      "role": "video",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_final_above_20260918_175712_841166_JST/above/policy_view.mp4",
+      "destination": "result/evidence/videos/above_original.mp4",
+      "required": true,
+      "frames": 424,
+      "fps": 50
+    },
+    {
+      "role": "video",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_continued3s_v2_above_20260919_105322_814504_JST/above/policy_view_continued3s.mp4",
+      "destination": "result/evidence/videos/above_continued3s.mp4",
+      "required": true,
+      "frames": 574,
+      "fps": 50
+    },
+    {
+      "role": "video",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_continued3s_v2_above_20260919_105322_814504_JST/above/policy_view_trimmed.mp4",
+      "destination": "result/evidence/videos/above_trimmed.mp4",
+      "required": true,
+      "frames": 495,
+      "fps": 50
+    },
+    {
+      "role": "continuation",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_continued3s_v2_above_20260919_105322_814504_JST/above/continuation.json",
+      "destination": "result/evidence/verification/above_continuation.json",
+      "required": false
+    },
+    {
+      "role": "video",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_final_pick_20260918_175542_646255_JST/pick/policy_view.mp4",
+      "destination": "result/evidence/videos/pick_original.mp4",
+      "required": true,
+      "frames": 879,
+      "fps": 50
+    },
+    {
+      "role": "video",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_continued3s_v2_pick_20260919_105151_114828_JST/pick/policy_view_continued3s.mp4",
+      "destination": "result/evidence/videos/pick_continued3s.mp4",
+      "required": true,
+      "frames": 1029,
+      "fps": 50
+    },
+    {
+      "role": "video",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_continued3s_v2_pick_20260919_105151_114828_JST/pick/policy_view_trimmed.mp4",
+      "destination": "result/evidence/videos/pick_trimmed.mp4",
+      "required": true,
+      "frames": 930,
+      "fps": 50
+    },
+    {
+      "role": "continuation",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_continued3s_v2_pick_20260919_105151_114828_JST/pick/continuation.json",
+      "destination": "result/evidence/verification/pick_continuation.json",
+      "required": false
+    }
+  ]
+}

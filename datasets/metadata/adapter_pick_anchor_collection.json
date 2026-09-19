@@ -1,0 +1,18 @@
+{
+  "collection_pass": true,
+  "samples": 526,
+  "trajectory_exactly_equal": {
+    "actions": true,
+    "pre_eef": true,
+    "post_eef": true,
+    "pre_quat_xyzw": true,
+    "post_quat_xyzw": true,
+    "post_cube": true,
+    "gripper_pos": true
+  },
+  "checkpoint_sha256": "3ad705b1224f552ccf6988364f5c9894fb55ab1003f390e5d04719033142177c",
+  "adapter_sha256": "c49bcf3ab1c25556e7204337e413829293ab4418303ad38b00992792293f4ed5",
+  "data_file": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_adapter_approach526_20260918_113414_371719_JST/pick/preservation_anchors.npz",
+  "training_performed": false,
+  "purpose": "Preserve active base-policy outputs on its own visited states, not teacher-trajectory inputs."
+}

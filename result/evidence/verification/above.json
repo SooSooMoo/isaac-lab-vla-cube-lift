@@ -1,0 +1,20 @@
+{
+  "samples": 424,
+  "initial_input_pass": true,
+  "reported_success": true,
+  "above_verified_success": true,
+  "required_hold_steps": 50,
+  "max_hold_steps": 50,
+  "position_limit_mm": 30,
+  "final_above_error_mm": 20.887432242803566,
+  "closest_above_error_mm": 19.043629709643636,
+  "closed_command_count": 0,
+  "stop_reason": "above_position_held",
+  "training_performed": false,
+  "runtime_step_based_override": false,
+  "checkpoint_sha256": "3ad705b1224f552ccf6988364f5c9894fb55ab1003f390e5d04719033142177c",
+  "adapter_sha256": "aee282b49bc44f0d57255c16e994c402d97cb00621a2bc0190b6e43c9fb71f23",
+  "gripper_correction_sha256": "48fc3c58dea3deaef9fbae6d1208d7df522967ff841162f5077f88eab0143863",
+  "xy_attenuation_sha256": "0f5b74efb4c9f34be3a9ab6b8985117869d8e6e1ff9565a1ab277f88ec2e3de5",
+  "scope": "Same model stack as numerical pick success. Above numerical verification; visual quality and independent repeatability not established."
+}

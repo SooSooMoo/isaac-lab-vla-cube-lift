@@ -1,0 +1,96 @@
+{
+  "samples": 879,
+  "initial_input_pass": true,
+  "reference_first700_equal": {
+    "actions": true,
+    "pre_eef": true,
+    "post_eef": true,
+    "pre_quat_xyzw": true,
+    "post_quat_xyzw": true,
+    "post_cube": true,
+    "gripper_pos": true
+  },
+  "prefix_compared_steps": 700,
+  "first_close_step": 553,
+  "gripper_changes": [
+    {
+      "step": 553,
+      "closed": true
+    }
+  ],
+  "required_cube_height_mm": 120.99961787462234,
+  "required_lift_streak": 10,
+  "max_lift_streak": 10,
+  "height_geometry_proxy_pass": true,
+  "horizontal_limit_mm": 50,
+  "max_cube_horizontal_displacement_after_first_close_mm": 31.024883270263672,
+  "lift_and_horizontal_proxy_pass": true,
+  "final_cube_height_mm": 124.96044158935547,
+  "maximum_cube_height_after_settle_mm": 124.96044158935547,
+  "samples_detail": [
+    {
+      "step": 699,
+      "cube_height_mm": 54.90712356567383,
+      "cube_horizontal_displacement_mm": 21.481250762939453,
+      "eef_minus_cube_mm": [
+        4.0718913078308105,
+        0.7856786251068115,
+        -4.346307277679443
+      ],
+      "closed": true
+    },
+    {
+      "step": 799,
+      "cube_height_mm": 57.612213134765625,
+      "cube_horizontal_displacement_mm": 8.425666809082031,
+      "eef_minus_cube_mm": [
+        4.248857498168945,
+        0.9927898645401001,
+        -4.130724906921387
+      ],
+      "closed": true
+    },
+    {
+      "step": 878,
+      "cube_height_mm": 124.96044158935547,
+      "cube_horizontal_displacement_mm": 24.815099716186523,
+      "eef_minus_cube_mm": [
+        4.3656229972839355,
+        0.8547576069831848,
+        -4.0423197746276855
+      ],
+      "closed": true
+    }
+  ],
+  "stop_reason": "cube_lifted",
+  "runtime_gripper_override": false,
+  "training_performed": false,
+  "visual_quality_verified": false,
+  "secure_contact_verified": false,
+  "scope": "Shared model with learned gripper correction and feature-based continuous XY attenuation; progress is included in features. Geometric lift/50mm horizontal criteria only; video quality and above task require separate verification.",
+  "checkpoint_sha256": "3ad705b1224f552ccf6988364f5c9894fb55ab1003f390e5d04719033142177c",
+  "adapter_sha256": "aee282b49bc44f0d57255c16e994c402d97cb00621a2bc0190b6e43c9fb71f23",
+  "correction_sha256": "48fc3c58dea3deaef9fbae6d1208d7df522967ff841162f5077f88eab0143863",
+  "diagnostic_trajectory_compared_steps": 879,
+  "matches_xy_intervention_trajectory": {
+    "actions": true,
+    "pre_eef": true,
+    "post_eef": true,
+    "pre_quat_xyzw": true,
+    "post_quat_xyzw": true,
+    "post_cube": true,
+    "gripper_pos": true
+  },
+  "xy_attenuation_sha256": "0f5b74efb4c9f34be3a9ab6b8985117869d8e6e1ff9565a1ab277f88ec2e3de5",
+  "runtime_step_based_override": false,
+  "repeatability_pass": true,
+  "repeat_exactly_equal": {
+    "actions": true,
+    "pre_eef": true,
+    "post_eef": true,
+    "pre_quat_xyzw": true,
+    "post_quat_xyzw": true,
+    "post_cube": true,
+    "gripper_pos": true
+  }
+}

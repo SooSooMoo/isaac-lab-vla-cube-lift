@@ -1,0 +1,91 @@
+{
+  "source_unchanged": true,
+  "base_checkpoint": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/gripper_actual_fix_20260917_142308_983342/shared_full_candidate.pt",
+  "base_sha256": "3ad705b1224f552ccf6988364f5c9894fb55ab1003f390e5d04719033142177c",
+  "updates": 5599,
+  "stop_reason": "time_limit",
+  "selected_update": 5594,
+  "baseline_arm_objective": 1.0,
+  "arm_objective": 0.09114084392786026,
+  "baseline_hold_fit": {
+    "pick up the cube/settle_open": {
+      "samples": 20,
+      "translation_rmse_action_units": 0.05115876719355583,
+      "rotation_rmse_action_units": 0.05573079735040665,
+      "gripper_mismatches": 15
+    },
+    "pick up the cube/stationary_close": {
+      "samples": 40,
+      "translation_rmse_action_units": 0.027226760983467102,
+      "rotation_rmse_action_units": 0.03175104036927223,
+      "gripper_mismatches": 0
+    }
+  },
+  "hold_fit": {
+    "pick up the cube/settle_open": {
+      "samples": 20,
+      "translation_rmse_action_units": 0.016096891835331917,
+      "rotation_rmse_action_units": 0.023627884685993195,
+      "gripper_mismatches": 0
+    },
+    "pick up the cube/stationary_close": {
+      "samples": 40,
+      "translation_rmse_action_units": 0.005846831016242504,
+      "rotation_rmse_action_units": 0.006326325703412294,
+      "gripper_mismatches": 0
+    }
+  },
+  "full_preservation": {
+    "pass": true,
+    "tasks": {
+      "0": {
+        "arm_rmse_action_units": 0.00041362745105288923,
+        "max_abs_arm_difference": 0.001173151656985283,
+        "gripper_mismatches": 0,
+        "pass": true
+      },
+      "1": {
+        "arm_rmse_action_units": 0.00046377754188142717,
+        "max_abs_arm_difference": 0.0018181577324867249,
+        "gripper_mismatches": 0,
+        "pass": true
+      }
+    }
+  },
+  "thresholds": {
+    "arm_rmse_max": 0.0005,
+    "arm_max_abs_max": 0.002,
+    "anchor_gripper_mismatches_max": 0
+  },
+  "language_train": {
+    "paired_correct": 16,
+    "pairs": 16,
+    "arm_mse": 4.1411220763620804e-07,
+    "max_relative_translation_error": 0.09232315421104431,
+    "open_gripper_count": 32
+  },
+  "language_development": {
+    "paired_correct": 8,
+    "pairs": 8,
+    "arm_mse": 7.303991424123524e-06,
+    "max_relative_translation_error": 0.2935333251953125,
+    "open_gripper_count": 16
+  },
+  "teacher_data": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_settle_then_close623_verified_20260918_110336_081918_JST/pick/vertical_recovery.npz",
+  "teacher_sha256": "dbeb4cc34aaf2f1a3e54103a1b68c59d8fc7288aaa2dfdc1137c28b439418186",
+  "anchor_hashes": {
+    "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_settle_grasp_anchors_above_20260918_001143_047522_JST/above/preservation_anchors.npz": "884cc88e1830e3a790fc96f3764e2890dab932ad6bc53acdc6803791b83d3ac9",
+    "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_current_approach623_20260918_110730_275711_JST/pick/preservation_anchors.npz": "bf0824e23097bfc136343f1dce85ef403f91b175750fb7b19417dad8cbd856b0"
+  },
+  "model_code_sha256": "57ba83d3a7eab86f46fd9b75315def0dc684fe3a4e7672b1f18423f57dafab58",
+  "torch_version": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "model_saved": true,
+  "simulation_executed": false,
+  "runtime_integration_verified": false,
+  "scope": "Current 623-step pick approach anchors and current teacher hold data; shared adapter, no inference stage switching. Offline improvement does not certify grasp.",
+  "adapter_file": "/workspace/step3/current_hold_adapter_jtdqus8m/hold_adapter.pt",
+  "adapter_sha256": "c49bcf3ab1c25556e7204337e413829293ab4418303ad38b00992792293f4ed5",
+  "adapter_bytes": 135277,
+  "weights_roundtrip_pass": true
+}

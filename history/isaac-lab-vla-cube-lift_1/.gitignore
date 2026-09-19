@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Isaac Sim / Isaac Lab
+_isaac_sim/
+logs/
+outputs/
+*.log
+
+# Large datasets and checkpoints
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+
+# Allow small public dataset samples
+!02_data_collection/data/samples/*.h5
+!02_data_collection/data/samples/*.hdf5
+
+# Generated files
+frames/
+recordings/
+*.tmp
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets
+.env
+.env.*
+*.key
+*.pem

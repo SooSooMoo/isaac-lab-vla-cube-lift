@@ -1,0 +1,14 @@
+{
+  "dataset": "two_instruction.hdf5",
+  "demos": {
+    "demo_0": "pick up the cube",
+    "demo_1": "move above the cube"
+  },
+  "public_download_url": null,
+  "runtime_source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/two_instruction.hdf5",
+  "dependency_hashes_imported": true,
+  "local_dataset": "datasets/demonstrations/two_instruction.hdf5",
+  "data_imported": true,
+  "dependency_manifest": "datasets/dependency_manifest.json",
+  "full_training_history_complete": false
+}

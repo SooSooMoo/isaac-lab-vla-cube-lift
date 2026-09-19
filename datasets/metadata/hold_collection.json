@@ -1,0 +1,30 @@
+{
+  "collection_pass": true,
+  "first623_exactly_equal": {
+    "actions": true,
+    "pre_eef": true,
+    "post_eef": true,
+    "pre_quat_xyzw": true,
+    "post_quat_xyzw": true,
+    "post_cube": true,
+    "gripper_pos": true
+  },
+  "samples": 60,
+  "settle_open_steps": 20,
+  "hold_target_reanchored": false,
+  "translation_gain": 1.0,
+  "translation_step_limit_m": 0.01,
+  "teacher_actions_executed": true,
+  "training_performed": false,
+  "vla_success": false,
+  "eef_max_displacement_mm": 2.5823628902435303,
+  "cube_xy_max_displacement_mm": 7.534728050231934,
+  "last20_relative_range_mm": 0.0033974647521972656,
+  "continuous_closed40": true,
+  "arm_hold_pass": true,
+  "arm_limit_mm": 5.0,
+  "relative_stability_evaluated_for_pass": false,
+  "secure_contact_verified": false,
+  "data_file": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_settle_then_close623_verified_20260918_110336_081918_JST/pick/vertical_recovery.npz",
+  "checkpoint_sha256": "3ad705b1224f552ccf6988364f5c9894fb55ab1003f390e5d04719033142177c"
+}

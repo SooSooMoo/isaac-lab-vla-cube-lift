@@ -1,0 +1,23 @@
+{
+  "prefix_checkpoint": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/pick_branch_20260916_150628_449371_JST/training/best_pick_branch.pt",
+  "prefix_sha256": "97405cf86e1b500013eedf4b94a827cd527c9db6ef9810940302e4b9994b64a9",
+  "switch_step_zero_based": 350,
+  "teacher_at_evaluation": false,
+  "suffix_training": "321 successful recovery observations plus 426 on-policy corrections; close/lift samples excluded from optimization; every fifth step held out",
+  "suffix_source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/stage350_epoch5_diagnostic_20260916_173800_265791_JST/training/last_updates.pt",
+  "correction_data": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/train_descent_alignment_20260916_181508_562003_JST/combined_corrections.npz",
+  "scope": "fixed initial state, fixed time switch, two-checkpoint learned controller",
+  "cache": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/branch_feature_cache/9e298d93f9f120e12c57.pt",
+  "max_epochs": 5,
+  "candidate_status": "diagnostic_only_not_automatically_promoted",
+  "suffix_checkpoint": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/train_descent_alignment_20260916_181508_562003_JST/training/last_updates.pt",
+  "suffix_sha256": "20684032dd42bac61a8d9730c2c8377b5239584f5de831135232cdce99f11d5a",
+  "prelift_checkpoint": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/train_descent_alignment_20260916_181508_562003_JST/training/last_updates.pt",
+  "prelift_sha256": "20684032dd42bac61a8d9730c2c8377b5239584f5de831135232cdce99f11d5a",
+  "lift_switch_step": 551,
+  "lift_training_data": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/recover_lift551_20260916_185001_910283_JST/pick/lift_recovery_data.npz",
+  "architecture": "three learned checkpoints with fixed-time switches at350 and551",
+  "maximum_epochs": 50,
+  "lift_checkpoint": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/train_lift_stage_20260916_185701_630638_JST/training/best_pick_branch.pt",
+  "lift_sha256": "9dc04390e06764a6dcb9e09ce025ac97891fe018f78f7a6e3e45e2ba2fee0d61"
+}

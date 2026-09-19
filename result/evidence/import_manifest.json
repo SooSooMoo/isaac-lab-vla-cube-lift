@@ -1,0 +1,212 @@
+{
+  "backup": {
+    "backup": "/workspace/step3/isaac-lab-vla-cube-lift_2_backup_20260919_023533_881186_UTC.tar.gz",
+    "sha256": "ac871060a3a1859abe8800f9988c7d357732527422c6164450179454e1cb57aa",
+    "regular_files": 90,
+    "symlinks": 0,
+    "all_file_hashes_verified": true,
+    "includes_git": false
+  },
+  "files": [
+    {
+      "role": "base",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/gripper_actual_fix_20260917_142308_983342/shared_full_candidate.pt",
+      "destination": "result/model/shared_full_candidate.pt",
+      "sha256": "3ad705b1224f552ccf6988364f5c9894fb55ab1003f390e5d04719033142177c",
+      "required": true,
+      "bytes": 51762323
+    },
+    {
+      "role": "visual_adapter",
+      "source": "/workspace/step3/visual_consistency13_th1jfnmy/visual_adapter.pt",
+      "destination": "result/model/visual_adapter.pt",
+      "sha256": "aee282b49bc44f0d57255c16e994c402d97cb00621a2bc0190b6e43c9fb71f23",
+      "required": true,
+      "bytes": 269257
+    },
+    {
+      "role": "gripper_correction",
+      "source": "/workspace/step3/retention_gripper_da00uipp/gripper_correction.pt",
+      "destination": "result/model/gripper_correction.pt",
+      "sha256": "48fc3c58dea3deaef9fbae6d1208d7df522967ff841162f5077f88eab0143863",
+      "required": true,
+      "bytes": 3709
+    },
+    {
+      "role": "xy_attenuation",
+      "source": "/workspace/step3/learned_xy_attenuation__zkv0syj/xy_attenuation.pt",
+      "destination": "result/model/xy_attenuation.pt",
+      "sha256": "0f5b74efb4c9f34be3a9ab6b8985117869d8e6e1ff9565a1ab277f88ec2e3de5",
+      "required": true,
+      "bytes": 6435
+    },
+    {
+      "role": "evidence",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/verify_xy_attenuation1300_pick_20260918_173544_857706_JST/results.json",
+      "destination": "result/evidence/verification/pick.json",
+      "required": true,
+      "sha256": "969167243604db96d69b35c2b56387c69553c8e1488294764835232956f920e2",
+      "bytes": 2733
+    },
+    {
+      "role": "trace",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/verify_xy_attenuation1300_pick_20260918_173544_857706_JST/pick/teacher_trace.npz",
+      "destination": "result/evidence/verification/pick_trace.npz",
+      "required": false,
+      "sha256": "b045b43a677b86dfdb77ef9bd34ef0560db557806cb06db346a9d56cc18585b7",
+      "bytes": 97263
+    },
+    {
+      "role": "evidence",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/verify_xy_attenuation_above_20260918_174047_971979_JST/results.json",
+      "destination": "result/evidence/verification/above.json",
+      "required": true,
+      "sha256": "c0d12fa82e1b434abac2dd9af2258f07f74e1bc1538f38309f90ad4946723128",
+      "bytes": 949
+    },
+    {
+      "role": "trace",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/verify_xy_attenuation_above_20260918_174047_971979_JST/above/teacher_trace.npz",
+      "destination": "result/evidence/verification/above_trace.npz",
+      "required": false,
+      "sha256": "b0b26bd3af1f65a505fb5ad637a72662c231efd2afc04d44809ac7ae21daa918",
+      "bytes": 45893
+    },
+    {
+      "role": "evidence",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/repeat_xy_attenuation_pick_20260918_174405_066717_JST/results.json",
+      "destination": "result/evidence/verification/repeat_pick.json",
+      "required": true,
+      "sha256": "da7b3c402a90d9c84b60fb6b1a9af5726c569cf75a2a0f50f1f703dda5ef6820",
+      "bytes": 2962
+    },
+    {
+      "role": "trace",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/repeat_xy_attenuation_pick_20260918_174405_066717_JST/pick/teacher_trace.npz",
+      "destination": "result/evidence/verification/repeat_pick_trace.npz",
+      "required": false,
+      "sha256": "b045b43a677b86dfdb77ef9bd34ef0560db557806cb06db346a9d56cc18585b7",
+      "bytes": 97263
+    },
+    {
+      "role": "evidence",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/repeat_xy_attenuation_above_20260918_174536_673230_JST/results.json",
+      "destination": "result/evidence/verification/repeat_above.json",
+      "required": true,
+      "sha256": "179100ace95887ba234cd92fb076ea559500c67b13c9592a2ba7cc522afabe90",
+      "bytes": 1178
+    },
+    {
+      "role": "trace",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/repeat_xy_attenuation_above_20260918_174536_673230_JST/above/teacher_trace.npz",
+      "destination": "result/evidence/verification/repeat_above_trace.npz",
+      "required": false,
+      "sha256": "b0b26bd3af1f65a505fb5ad637a72662c231efd2afc04d44809ac7ae21daa918",
+      "bytes": 45893
+    },
+    {
+      "role": "video",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_final_above_20260918_175712_841166_JST/above/policy_view.mp4",
+      "destination": "result/evidence/videos/above_original.mp4",
+      "required": true,
+      "frames": 424,
+      "fps": 50,
+      "sha256": "89d33209bf53166251722d1060fc29960d084b202b986ff675f67b0bb438eddc",
+      "bytes": 205142,
+      "decode": {
+        "frames": 424,
+        "fps": 50.0
+      }
+    },
+    {
+      "role": "video",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_continued3s_v2_above_20260919_105322_814504_JST/above/policy_view_continued3s.mp4",
+      "destination": "result/evidence/videos/above_continued3s.mp4",
+      "required": true,
+      "frames": 574,
+      "fps": 50,
+      "sha256": "25891e6c25bb6f325ec60df08572869e1e484bb61ef0e017256316bbc4e33297",
+      "bytes": 277181,
+      "decode": {
+        "frames": 574,
+        "fps": 50.0
+      }
+    },
+    {
+      "role": "video",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_continued3s_v2_above_20260919_105322_814504_JST/above/policy_view_trimmed.mp4",
+      "destination": "result/evidence/videos/above_trimmed.mp4",
+      "required": true,
+      "frames": 495,
+      "fps": 50,
+      "sha256": "a84b4d23543832b79663c7e2c0cd0468ba58db5f592c17c9af1865fb244c3df7",
+      "bytes": 244195,
+      "decode": {
+        "frames": 495,
+        "fps": 50.0
+      }
+    },
+    {
+      "role": "continuation",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_continued3s_v2_above_20260919_105322_814504_JST/above/continuation.json",
+      "destination": "result/evidence/verification/above_continuation.json",
+      "required": false,
+      "sha256": "12b7c2510837d31dcc1302270f4db5324a19fc3f3eeeb61092b9b232e06bfad6",
+      "bytes": 77
+    },
+    {
+      "role": "video",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_final_pick_20260918_175542_646255_JST/pick/policy_view.mp4",
+      "destination": "result/evidence/videos/pick_original.mp4",
+      "required": true,
+      "frames": 879,
+      "fps": 50,
+      "sha256": "ebf6ebbb1f98feb5258e70c38b39b32bd4c613c7dfead1d67b2f911f4b9f82b7",
+      "bytes": 483590,
+      "decode": {
+        "frames": 879,
+        "fps": 50.0
+      }
+    },
+    {
+      "role": "video",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_continued3s_v2_pick_20260919_105151_114828_JST/pick/policy_view_continued3s.mp4",
+      "destination": "result/evidence/videos/pick_continued3s.mp4",
+      "required": true,
+      "frames": 1029,
+      "fps": 50,
+      "sha256": "0f34c0c1743dbbeabc26619226dbc0a18b298a43382c6502f0138cc0b8e9eba8",
+      "bytes": 596189,
+      "decode": {
+        "frames": 1029,
+        "fps": 50.0
+      }
+    },
+    {
+      "role": "video",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_continued3s_v2_pick_20260919_105151_114828_JST/pick/policy_view_trimmed.mp4",
+      "destination": "result/evidence/videos/pick_trimmed.mp4",
+      "required": true,
+      "frames": 930,
+      "fps": 50,
+      "sha256": "f173d7d385fa047d668492ee848857d1fa633f4d07f4c3f473ea3943758d612d",
+      "bytes": 519201,
+      "decode": {
+        "frames": 930,
+        "fps": 50.0
+      }
+    },
+    {
+      "role": "continuation",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/record_continued3s_v2_pick_20260919_105151_114828_JST/pick/continuation.json",
+      "destination": "result/evidence/verification/pick_continuation.json",
+      "required": false,
+      "sha256": "b28bfd6e30d3b6fecaacf15a8cc0e9e1ce086ec38a8b37fa3380a0c043d6efe3",
+      "bytes": 78
+    }
+  ],
+  "optional_missing": [],
+  "training_executed": false,
+  "simulation_executed": false,
+  "original_experiment_files_unchanged": true
+}

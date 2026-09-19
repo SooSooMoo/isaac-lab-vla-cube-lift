@@ -1,0 +1,242 @@
+{
+  "scope": "Direct data dependencies of four shipped training scripts plus intermediate weight and final-loader report; not a complete from-scratch reconstruction",
+  "created_utc": "2026-09-19T05:20:34.377467+00:00",
+  "files": [
+    {
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/two_instruction.hdf5",
+      "destination": "datasets/demonstrations/two_instruction.hdf5",
+      "role": "teacher demonstrations",
+      "consumers": [
+        "code/training/train_current_hold_adapter.sh"
+      ],
+      "bytes": 100516842,
+      "sha256": "2ec65d4535d48604afe61499f66026a061780d08c76b18396d9b8f2e3a2803bc",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_visual_robustness13_base_20260918_154939_668595_JST/observations13.npz",
+      "destination": "datasets/visual_consistency/base_observations13.npz",
+      "role": "reference visual observations",
+      "consumers": [
+        "code/training/train_visual_consistency13.sh"
+      ],
+      "bytes": 929120,
+      "sha256": "9c1baeef70f4226121261708b1f9911c46e2442b3c3756816ab4296d1df0b84b",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_visual_robustness13_tenth_20260918_155031_372274_JST/observations13.npz",
+      "destination": "datasets/visual_consistency/tenth_observations13.npz",
+      "role": "perturbed visual observations",
+      "consumers": [
+        "code/training/train_visual_consistency13.sh"
+      ],
+      "bytes": 927439,
+      "sha256": "bba3255da647e507d3e01d251e62b00061d434bd990021deab9f6c59623b380a",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_retention_inputs700_pick_20260918_163318_884185_JST/pick/retention_inputs.npz",
+      "destination": "datasets/retention/retention_inputs700.npz",
+      "role": "700 observations; 86 closure targets",
+      "consumers": [
+        "code/training/train_retention_gripper.sh"
+      ],
+      "bytes": 680105,
+      "sha256": "a00b4e3a5e147c0988fccf1064e0e6e88a6090261400582a61ab345564ab4ab3",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_xy_correction879_pick_20260918_165517_256946_JST/pick/xy_correction_inputs.npz",
+      "destination": "datasets/xy_attenuation/xy_correction_inputs879.npz",
+      "role": "879 observations; 79 intervention targets",
+      "consumers": [
+        "code/training/train_xy_attenuation.sh"
+      ],
+      "bytes": 855621,
+      "sha256": "374f0ba650066cccc582a64e288912d008e46e4529f98496153ad511d76c2178",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_settle_then_close623_verified_20260918_110336_081918_JST/pick/vertical_recovery.npz",
+      "destination": "datasets/hold/settle_then_close623.npz",
+      "role": "60 teacher settle/close observations",
+      "consumers": [
+        "code/training/train_current_hold_adapter.sh"
+      ],
+      "bytes": 5335112,
+      "sha256": "dbeb4cc34aaf2f1a3e54103a1b68c59d8fc7288aaa2dfdc1137c28b439418186",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_settle_grasp_anchors_above_20260918_001143_047522_JST/above/preservation_anchors.npz",
+      "destination": "datasets/anchors/above442.npz",
+      "role": "442 above preservation observations",
+      "consumers": [
+        "code/training/train_current_hold_adapter.sh",
+        "code/training/train_visual_consistency13.sh",
+        "code/training/train_retention_gripper.sh",
+        "code/training/train_xy_attenuation.sh"
+      ],
+      "bytes": 1755188,
+      "sha256": "884cc88e1830e3a790fc96f3764e2890dab932ad6bc53acdc6803791b83d3ac9",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_current_approach623_20260918_110730_275711_JST/pick/preservation_anchors.npz",
+      "destination": "datasets/anchors/base_pick623.npz",
+      "role": "623 base-policy approach observations",
+      "consumers": [
+        "code/training/train_current_hold_adapter.sh"
+      ],
+      "bytes": 2471284,
+      "sha256": "bf0824e23097bfc136343f1dce85ef403f91b175750fb7b19417dad8cbd856b0",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_adapter_approach526_20260918_113414_371719_JST/pick/preservation_anchors.npz",
+      "destination": "datasets/anchors/adapter_pick526.npz",
+      "role": "526 adapter-policy approach observations",
+      "consumers": [
+        "code/training/train_visual_consistency13.sh"
+      ],
+      "bytes": 2087679,
+      "sha256": "1b60c30243f28592099b8ba72460ff337f15472956938dfd837fc384cb68c3be",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/language_teacher_pairs_20260917_141110_240799_JST/results.json",
+      "destination": "datasets/language/teacher_pairs.json",
+      "role": "24 language-pair target records",
+      "consumers": [
+        "code/training/train_current_hold_adapter.sh"
+      ],
+      "bytes": 115563,
+      "sha256": "7069dda3d9d85d4bd47a9a201451e243d2fc4258d819f2506161f6346ed183ca",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/train_lift_stage_20260916_185701_630638_JST/protocol.json",
+      "destination": "datasets/metadata/base_training_protocol.json",
+      "role": "protocol read by training script",
+      "consumers": [
+        "code/training/train_current_hold_adapter.sh"
+      ],
+      "bytes": 2119,
+      "sha256": "6b4c3c010fc23ba10fc1a1a4a39980974558fd3171d00b60c6754d419c5a152c",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_settle_then_close623_verified_20260918_110336_081918_JST/results.json",
+      "destination": "datasets/metadata/hold_collection.json",
+      "role": "teacher collection verification",
+      "consumers": [
+        "code/training/train_current_hold_adapter.sh"
+      ],
+      "bytes": 1042,
+      "sha256": "b0a4cacc0b8ad58e12045378b5d64247c4c180d8bfdb93a18cab6a0a396c6284",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_settle_grasp_anchors_above_20260918_001143_047522_JST/results.json",
+      "destination": "datasets/metadata/above_anchor_collection.json",
+      "role": "anchor collection verification",
+      "consumers": [
+        "code/training/train_current_hold_adapter.sh"
+      ],
+      "bytes": 652,
+      "sha256": "c225eec288bc44c6c99ba2a45553c02b9306f84534e442865775d7e22de7b8d7",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_current_approach623_20260918_110730_275711_JST/results.json",
+      "destination": "datasets/metadata/base_pick_anchor_collection.json",
+      "role": "anchor collection verification",
+      "consumers": [
+        "code/training/train_current_hold_adapter.sh"
+      ],
+      "bytes": 644,
+      "sha256": "0a3d79ac5bb5566c813d9a7f66533bbf1647be27d236a08736c8335029793015",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_adapter_approach526_20260918_113414_371719_JST/results.json",
+      "destination": "datasets/metadata/adapter_pick_anchor_collection.json",
+      "role": "anchor provenance",
+      "consumers": [
+        "code/training/train_visual_consistency13.sh"
+      ],
+      "bytes": 732,
+      "sha256": "2367a74547677588ab0189083320d21ec7d121a08e1ba6ac5821c833763b7343",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/current_hold_adapter_jtdqus8m/hold_adapter.pt",
+      "destination": "result/model/development/current_hold_adapter.pt",
+      "role": "intermediate weight used by later trainers",
+      "consumers": [
+        "code/training/train_visual_consistency13.sh",
+        "code/training/train_retention_gripper.sh",
+        "code/training/train_xy_attenuation.sh"
+      ],
+      "bytes": 135277,
+      "sha256": "c49bcf3ab1c25556e7204337e413829293ab4418303ad38b00992792293f4ed5",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/current_hold_adapter_jtdqus8m/results.json",
+      "destination": "datasets/metadata/current_hold_training.json",
+      "role": "intermediate training report",
+      "consumers": [
+        "code/training/train_current_hold_adapter.sh"
+      ],
+      "bytes": 3691,
+      "sha256": "9a8dd6648f71a71eb8a8f825564d92d4f4cfdce90ac820f69b3db5e4b89c431f",
+      "preexisting": false
+    },
+    {
+      "source": "/workspace/step3/visual_consistency13_th1jfnmy/results.json",
+      "destination": "datasets/metadata/visual_training.json",
+      "role": "report and anchor hashes read by final loader",
+      "consumers": [
+        "code/inference/shared_loader.py"
+      ],
+      "bytes": 1864,
+      "sha256": "bbc4a8ce31716102672a3ffdb89ea4bbe8b78c58799cb0dd55dee64032bfdb18",
+      "preexisting": false
+    }
+  ],
+  "final_model_components": [
+    {
+      "role": "base",
+      "source": "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/gripper_actual_fix_20260917_142308_983342/shared_full_candidate.pt",
+      "destination": "result/model/shared_full_candidate.pt",
+      "sha256": "3ad705b1224f552ccf6988364f5c9894fb55ab1003f390e5d04719033142177c",
+      "required": true
+    },
+    {
+      "role": "visual_adapter",
+      "source": "/workspace/step3/visual_consistency13_th1jfnmy/visual_adapter.pt",
+      "destination": "result/model/visual_adapter.pt",
+      "sha256": "aee282b49bc44f0d57255c16e994c402d97cb00621a2bc0190b6e43c9fb71f23",
+      "required": true
+    },
+    {
+      "role": "gripper_correction",
+      "source": "/workspace/step3/retention_gripper_da00uipp/gripper_correction.pt",
+      "destination": "result/model/gripper_correction.pt",
+      "sha256": "48fc3c58dea3deaef9fbae6d1208d7df522967ff841162f5077f88eab0143863",
+      "required": true
+    },
+    {
+      "role": "xy_attenuation",
+      "source": "/workspace/step3/learned_xy_attenuation__zkv0syj/xy_attenuation.pt",
+      "destination": "result/model/xy_attenuation.pt",
+      "sha256": "0f5b74efb4c9f34be3a9ab6b8985117869d8e6e1ff9565a1ab277f88ec2e3de5",
+      "required": true
+    }
+  ],
+  "scripts_use_original_paths": true,
+  "training_executed": false,
+  "simulation_executed": false
+}

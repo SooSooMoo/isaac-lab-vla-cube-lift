@@ -1,0 +1,44 @@
+{
+  "baseline": {
+    "target_mse": 2.9531389373005368e-05,
+    "pair_max_action_difference": 0.03394424915313721,
+    "reference_max_action_change": 1.9744038581848145e-07
+  },
+  "selected": {
+    "target_mse": 1.2189130757178646e-05,
+    "pair_max_action_difference": 0.026179395616054535,
+    "reference_max_action_change": 0.0017453553155064583
+  },
+  "selected_update": 7847,
+  "preservation": {
+    "above": {
+      "rmse": 0.00047747266944497824,
+      "max_abs": 0.0018303105607628822,
+      "gripper_mismatches": 0
+    },
+    "pick": {
+      "rmse": 0.0004820482281502336,
+      "max_abs": 0.0018631517887115479,
+      "gripper_mismatches": 0
+    }
+  },
+  "thresholds": {
+    "rmse": 0.0005,
+    "max_abs": 0.002,
+    "gripper_mismatches": 0
+  },
+  "preservation_pass": true,
+  "gripper_logit_max_change": 1.9073486328125e-06,
+  "gripper_decisions_unchanged": true,
+  "language_recheck_pending": true,
+  "simulation_executed": false,
+  "model_saved": true,
+  "scope": "13 reused observation pairs; nominal table/state fixed and alternate wrist image used as synthetic variation. Targets are c49 predictions, not expert corrective actions. No generalization or task-success claim.",
+  "adapter_file": "/workspace/step3/visual_consistency13_th1jfnmy/visual_adapter.pt",
+  "adapter_sha256": "aee282b49bc44f0d57255c16e994c402d97cb00621a2bc0190b6e43c9fb71f23",
+  "anchor_hashes": {
+    "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_settle_grasp_anchors_above_20260918_001143_047522_JST/above/preservation_anchors.npz": "884cc88e1830e3a790fc96f3764e2890dab932ad6bc53acdc6803791b83d3ac9",
+    "/workspace/step3/fixed_vla_4090_20260916_095545_374496_JST/collect_adapter_approach526_20260918_113414_371719_JST/pick/preservation_anchors.npz": "1b60c30243f28592099b8ba72460ff337f15472956938dfd837fc384cb68c3be"
+  },
+  "source_unchanged": true
+}

@@ -1,0 +1,17 @@
+{
+  "checkpoint_name": "model_epoch_200.pth",
+  "checkpoint_source_path": "/workspace/IsaacLab-develop/logs/robomimic/IsaacContrib-Lift-Cube-Franka-IK-Rel-Visuomotor/bc_rnn_image_franka_lift/20260829133122/models/model_epoch_200.pth",
+  "file_size_bytes": 140386829,
+  "sha256": "0fe3c99a51aa8cb106515d099b3fb80b107f8f09844f617828785b07e72f224b",
+  "epoch": 200,
+  "algorithm": "Behavior Cloning",
+  "policy": "BC-RNN-GMM",
+  "task": "IsaacContrib-Lift-Cube-Franka-IK-Rel-Visuomotor",
+  "demonstrations": 50,
+  "language_used_as_policy_input": false,
+  "publication": {
+    "included_in_git_repository": false,
+    "planned_distribution": "GitHub Releases or external storage",
+    "download_url": null
+  }
+}

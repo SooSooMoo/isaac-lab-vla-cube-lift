@@ -1,0 +1,4 @@
+evaluation,trials,successes,success_rate,notes
+initial_rollout,10,1,0.10,First observed successful rollout
+seed_search,48,1,0.020833,Successful seed 2058
+exact_action_replay,1,1,1.0,Same initial position and saved action sequence

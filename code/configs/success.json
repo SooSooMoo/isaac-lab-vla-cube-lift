@@ -1,0 +1,17 @@
+{
+  "release": "2026-09-19",
+  "base_sha256": "3ad705b1224f552ccf6988364f5c9894fb55ab1003f390e5d04719033142177c",
+  "shared_head": true,
+  "runtime_step_based_override": false,
+  "progress_denominator": 1200,
+  "dt_seconds": 0.02,
+  "above": {
+    "position_limit_mm": 30,
+    "hold_steps": 50
+  },
+  "pick": {
+    "cube_height_mm": 120.99961787462234,
+    "lift_streak": 10,
+    "horizontal_limit_mm": 50
+  }
+}
