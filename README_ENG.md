@@ -16,6 +16,8 @@ The stack combines a base policy, learned visual residuals, a learned gripper co
 ## Videos
 
 The Pod updater imports `result/evidence/videos/above_trimmed.mp4` (9.90 s) and `pick_trimmed.mp4` (18.60 s), plus the original and full continuation versions. Upload presentation videos to a GitHub Release and add its URLs when publishing. Playback is real-time at 50 fps. Only the tail is removed; no frozen frames or substituted actions. The user approved the original movement and accepted the edited videos.
+- [`above_trimmed.mp4`](result/evidence/videos/above_trimmed.mp4)：above Video
+- [`pick_trimmed.mp4`](result/evidence/videos/pick_trimmed.mp4)：pick Video
 
 ## Scope
 
