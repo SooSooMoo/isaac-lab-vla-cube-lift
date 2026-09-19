@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+*.pt
+*.pth
+*.hdf5
+*.h5
+*.npz
+*.tar
+*.tar.gz
+*.zip
+.env
+.env.*
+result/evidence/videos/*.mp4
+runtime_output/
