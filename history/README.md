@@ -1,9 +1,17 @@
-# 履歴
+# History
 
-このフォルダは今後の履歴管理用として残しています。旧版フォルダの実体は削除しました。
+## English 
 
-更新前の完全バックアップはリポジトリ外に保存されています：
+Projects from before the update are saved here:
 
-`/workspace/step3/isaac-lab-vla-cube-lift_2_backup_20260919_023533_881186_UTC.tar.gz`
+① 2026/8/31 /isaac-lab-vla-cube-lift_1 — Implements the "V" and "A" of VLA; "L" is limited to a single instruction.
 
-現行の説明・結果はリポジトリ直下のREADMEとdocumentを参照してください。
+Please refer to the README located directly below for descriptions and results.
+
+## Japanease 
+
+更新前のプロジェクトはここに保存します：
+
+①2026/8/31  /isaac-lab-vla-cube-lift_1　VLAの"V・A"を実現。Lは1つの指示のみ。
+
+説明・結果は直下のREADMEなどを参照してください。
