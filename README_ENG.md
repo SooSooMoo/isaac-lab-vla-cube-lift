@@ -51,3 +51,19 @@ The previous snapshot is retained in an external backup; the history directory c
 ## Notes
 
 Moved and backed up the large dataset (two_instruction.hdf5) and trained model checkpoint (shared_full_candidate.pt) to the backup directory (isaac-lab-vla-cube-lift_bk_data_and_model).
+
+<!-- portfolio-next-steps:start -->
+## Next Steps
+
+The following development milestones have not yet been achieved. They are separate from the verified results reported above and will be evaluated one stage at a time.
+
+| Stage | Next action | What to verify |
+|---|---|---|
+| 1 | Pick up the cube from a fixed initial position and hold it lifted for 3 seconds | No drop or large horizontal movement after reaching the lift target |
+| 2 | Pick up the cube with a randomized initial position | Approach and lift the cube at positions not used for training |
+| 3 | Place two differently colored cubes together and pick up the color specified by the instruction | Select the intended object from an instruction such as "pick up the red cube" |
+
+In Stage 3, swap the cubes' positions as well, to check that selection follows color and language rather than a fixed location.
+
+Limit the conditions changed at each stage, and record trial counts, success rates, drops, and horizontal displacement. Define evaluation conditions before running the trials. In Stages 2 and 3, also check that the same model stack retains the existing `move above the cube` behavior.
+<!-- portfolio-next-steps:end -->
