@@ -7,7 +7,7 @@ This directory contains the code for a shared policy that uses table-camera and 
 - `move above the cube`: move to and hold a target position above the cube.
 - `pick up the cube`: grasp and lift the cube.
 
-The final stack consists of four artifacts: a base model, a visual adapter, a gripper correction, and XY attenuation. Both tasks use the same stack. See the [model manifest](../result/model/manifest.json) for artifact identities and the [verification records](../result/evidence/README.md) for numerical results.
+The final stack consists of four artifacts: a base model, a visual adapter, a gripper correction, and XY attenuation. Both tasks use the same stack. See the [model manifest](../result/model/manifest.json) for artifact identities and the [verification records](../result/evidence/README_EMG.md) for numerical results.
 
 **These are experiment scripts tied to the verified Pod environment, not a sequence in which every file should be executed.** They also require files outside this repository, including training data, previous experiment outputs, and the custom Isaac Lab environment. Check the fixed paths and hashes inside each script.
 
