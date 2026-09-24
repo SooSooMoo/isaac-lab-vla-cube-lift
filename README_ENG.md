@@ -15,7 +15,7 @@
   </tr>
 </table>
 
-[日本語](README_JPN.md) · [Method](document/method.md) · [Reproduction](document/reproduction.md)
+[日本語](README_JPN.md) · [Method](document/README_EMG.md#2-method-and-model-stack) · [Reproduction](document/README_EMG.md#6-reproduction-and-verification-order)
 
 | Instruction | Reported result | Criterion | Steps |
 |---|---|---|---:|

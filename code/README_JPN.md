@@ -154,7 +154,7 @@ bash code/evaluation/repeat_both_xy_attenuation.sh
 
 ## 4. 実行前に確認すること
 
-- 再現に必要な環境：[環境説明](../document/environment.md)、[再現手順](../document/reproduction.md)
+- 再現に必要な環境：[環境説明](../document/README_JPN.md#4-実行環境)、[再現手順](../document/README_JPN.md#6-再現と確認の順序)
 - 学習・録画・再実行は保存容量を使用します。Podの容量制限に注意し、不要な再実行を避けてください。
 - データ収集・診断には教師介入があります。最終評価に介入を混ぜないでください。
 - 同じ入力で腕や開閉の出力を保っても、動作後の観測が変われば将来の行動は変わります。学習誤差だけで成功判定しません。

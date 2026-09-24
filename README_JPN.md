@@ -14,7 +14,7 @@
   </tr>
 </table>
 
-[English](README_ENG.md) · [実装](document/method.md) · [再現手順](document/reproduction.md) · [検証記録](result/evidence/README.md)
+[English](README_ENG.md) · [実装](document/README_JPN.md#2-方法とモデル構成) · [再現手順](document/README_JPN.md#6-再現と確認の順序) · [検証記録](result/evidence/README.md)
 
 ## デモ動画
 

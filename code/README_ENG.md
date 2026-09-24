@@ -154,7 +154,7 @@ Reference paths are fixed to the adopted experiment records. A changed model req
 
 ## 4. Before Running
 
-- See the [environment notes](../document/environment.md) and [reproduction guide](../document/reproduction.md) for dependencies.
+- See the [environment notes](../document/README_EMG.md#4-runtime-environment) and [reproduction guide](../document/README_EMG.md#6-reproduction-and-verification-order) for dependencies.
 - Training, recording, and repeated simulation consume storage. Account for the Pod's disk quota and avoid unnecessary reruns.
 - Collection and diagnostic scripts may use teacher interventions. Keep those interventions separate from final autonomous evaluation.
 - Preserving arm or gripper outputs for identical inputs does not guarantee unchanged future actions once observations evolve. Training error alone is not a success criterion.

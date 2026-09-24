@@ -89,4 +89,4 @@ The historical `update_portfolio_on_pod.py` targets the former folder name `isaa
 
 Do not cite intermediate September 17 results as final results. Original, extended, and trimmed videos serve different purposes. Disk quota was repeatedly exhausted; check available capacity before saving additional artifacts and protect verified models and data.
 
-Existing individual documents remain available for reference and history. The English and Japanese versions of this document cover the same scope.
+The six former individual documents have been consolidated into this bilingual documentation. The English and Japanese versions cover the same scope. Earlier versions remain available in Git history.
