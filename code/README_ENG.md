@@ -127,7 +127,7 @@ Run these commands on the verified Pod. The original experiment files at the fix
 ### Check Documentation and Packaged Files
 
 ```bash
-cd /workspace/step3/isaac-lab-vla-cube-lift_2
+cd /workspace/step3/isaac-lab-vla-cube-lift
 /isaac-sim/python.sh code/tools/check_package.py --require-imported
 ```
 
@@ -136,7 +136,7 @@ This does not train a model or run the simulator. When a README changes, update 
 ### Re-evaluate Both Tasks with the Current Model
 
 ```bash
-cd /workspace/step3/isaac-lab-vla-cube-lift_2
+cd /workspace/step3/isaac-lab-vla-cube-lift
 bash code/evaluation/verify_xy_attenuation_above.sh
 bash code/evaluation/verify_xy_attenuation1300.sh
 ```
@@ -146,7 +146,7 @@ These commands run the simulator and create new result files. They do not retrai
 ### Check Repeatability of the Same Stack
 
 ```bash
-cd /workspace/step3/isaac-lab-vla-cube-lift_2
+cd /workspace/step3/isaac-lab-vla-cube-lift
 bash code/evaluation/repeat_both_xy_attenuation.sh
 ```
 

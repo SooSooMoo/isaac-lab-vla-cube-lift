@@ -72,7 +72,7 @@ The first six dimensions are relative IK commands, and the final dimension is th
 
 Using an Isaac Lab state machine as the expert, 50 successful demonstrations were collected from randomized initial cube positions. The Robomimic HDF5 dataset contains sequential camera images, robot states, and expert actions.
 
-Language instructions are not included in the current training data or model input. The complete dataset will be distributed through GitHub Releases or external storage after its size is confirmed.
+In this historical version, a fixed instruction is stored as dataset metadata but is not supplied as a language input to the policy. The complete dataset will be distributed through GitHub Releases or external storage after its size is confirmed.
 
 ## 03. Training
 
@@ -116,7 +116,7 @@ The seven-dimensional successful action sequence is stored in `05_reproduction/s
 
 The trajectory was reproduced using the same initial cube position and exact action sequence. However, the same seed alone does not reproduce closed-loop policy success on every run.
 
-See [`05_reproduction/experiment_summary_JPN.md`](05_reproduction/experiment_summary_JPN.md) for details.
+See [`05_reproduction/experiment_summary_ENG.md`](05_reproduction/experiment_summary_ENG.md) for details.
 
 ## 06. Videos
 
@@ -148,4 +148,4 @@ do not pick up any cube
 
 ## License
 
-Review the license terms of Isaac Lab and Robomimic. A license for the original code in this repository will be selected before publication.
+Review the license terms of Isaac Lab and Robomimic. The license file for this historical Version 1 project is [LICENSE](LICENSE) in this directory.

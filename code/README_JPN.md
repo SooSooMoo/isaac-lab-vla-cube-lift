@@ -127,7 +127,7 @@
 ### 資料・配布ファイルだけ確認する
 
 ```bash
-cd /workspace/step3/isaac-lab-vla-cube-lift_2
+cd /workspace/step3/isaac-lab-vla-cube-lift
 /isaac-sim/python.sh code/tools/check_package.py --require-imported
 ```
 
@@ -136,7 +136,7 @@ cd /workspace/step3/isaac-lab-vla-cube-lift_2
 ### 現行モデルで両タスクを再評価する
 
 ```bash
-cd /workspace/step3/isaac-lab-vla-cube-lift_2
+cd /workspace/step3/isaac-lab-vla-cube-lift
 bash code/evaluation/verify_xy_attenuation_above.sh
 bash code/evaluation/verify_xy_attenuation1300.sh
 ```
@@ -146,7 +146,7 @@ bash code/evaluation/verify_xy_attenuation1300.sh
 ### 同じ構成の再実行一致を確認する
 
 ```bash
-cd /workspace/step3/isaac-lab-vla-cube-lift_2
+cd /workspace/step3/isaac-lab-vla-cube-lift
 bash code/evaluation/repeat_both_xy_attenuation.sh
 ```
 

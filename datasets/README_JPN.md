@@ -4,29 +4,29 @@
 
 ## 収録範囲
 
-教師HDF5、視覚整合性の2ファイル、開閉保持、XY介入に加え、腕保持の教師データ、3種類の保持用観測、言語ペアの目標値、検証・学習JSONを整理しました。ファイル名が重複するNPZは役割が分かる名前に変更してコピーしています。元実験ファイルは変更していません。
+外部保管の教師HDF5を含む依存一覧として、視覚整合性の2ファイル、開閉保持、XY介入に加え、腕保持の教師データ、3種類の保持用観測、言語ペアの目標値、検証・学習JSONを整理しました。ファイル名が重複するNPZは役割が分かる名前に変更してコピーしています。元実験ファイルは変更していません。
 
 下表のhold/visual/gripper/xyに対応する学習スクリプトは、依存一覧のconsumersで確認できます。JSONは単なるログとは限らず、教師ラベルやハッシュ検査に使用されるものもあります。
 
-| File (relative to datasets/) | Contents | Used by |
+| ファイル（datasets/からの相対パス） | 内容 | 利用スクリプト |
 |---|---|---|
-| `demonstrations/two_instruction.hdf5` | teacher demonstrations | train_current_hold_adapter |
-| `visual_consistency/base_observations13.npz` | reference visual observations | train_visual_consistency13 |
-| `visual_consistency/tenth_observations13.npz` | perturbed visual observations | train_visual_consistency13 |
-| `retention/retention_inputs700.npz` | 700 observations; 86 closure targets | train_retention_gripper |
-| `xy_attenuation/xy_correction_inputs879.npz` | 879 observations; 79 intervention targets | train_xy_attenuation |
-| `hold/settle_then_close623.npz` | 60 teacher settle/close observations | train_current_hold_adapter |
-| `anchors/above442.npz` | 442 above preservation observations | train_current_hold_adapter, train_visual_consistency13, train_retention_gripper, train_xy_attenuation |
-| `anchors/base_pick623.npz` | 623 base-policy approach observations | train_current_hold_adapter |
-| `anchors/adapter_pick526.npz` | 526 adapter-policy approach observations | train_visual_consistency13 |
-| `language/teacher_pairs.json` | 24 language-pair target records | train_current_hold_adapter |
-| `metadata/base_training_protocol.json` | protocol read by training script | train_current_hold_adapter |
-| `metadata/hold_collection.json` | teacher collection verification | train_current_hold_adapter |
-| `metadata/above_anchor_collection.json` | anchor collection verification | train_current_hold_adapter |
-| `metadata/base_pick_anchor_collection.json` | anchor collection verification | train_current_hold_adapter |
-| `metadata/adapter_pick_anchor_collection.json` | anchor provenance | train_visual_consistency13 |
-| `metadata/current_hold_training.json` | intermediate training report | train_current_hold_adapter |
-| `metadata/visual_training.json` | report and anchor hashes read by final loader | shared_loader |
+| `demonstrations/two_instruction.hdf5` | 教師デモ（外部保管） | train_current_hold_adapter |
+| `visual_consistency/base_observations13.npz` | 基準となる画像観測 | train_visual_consistency13 |
+| `visual_consistency/tenth_observations13.npz` | 変化後の画像観測 | train_visual_consistency13 |
+| `retention/retention_inputs700.npz` | 700観測・86閉鎖目標 | train_retention_gripper |
+| `xy_attenuation/xy_correction_inputs879.npz` | 879観測・79介入目標 | train_xy_attenuation |
+| `hold/settle_then_close623.npz` | 教師による静止待ち・閉鎖の60観測 | train_current_hold_adapter |
+| `anchors/above442.npz` | aboveの既存出力を保持する442観測 | train_current_hold_adapter, train_visual_consistency13, train_retention_gripper, train_xy_attenuation |
+| `anchors/base_pick623.npz` | 基礎方策の接近時623観測 | train_current_hold_adapter |
+| `anchors/adapter_pick526.npz` | アダプター適用方策の接近時526観測 | train_visual_consistency13 |
+| `language/teacher_pairs.json` | 言語ペア目標24レコード | train_current_hold_adapter |
+| `metadata/base_training_protocol.json` | 学習スクリプトが参照する設定 | train_current_hold_adapter |
+| `metadata/hold_collection.json` | 教師データ収集の検証記録 | train_current_hold_adapter |
+| `metadata/above_anchor_collection.json` | 保持用観測の収集検証記録 | train_current_hold_adapter |
+| `metadata/base_pick_anchor_collection.json` | 保持用観測の収集検証記録 | train_current_hold_adapter |
+| `metadata/adapter_pick_anchor_collection.json` | 保持用観測の出所 | train_visual_consistency13 |
+| `metadata/current_hold_training.json` | 中間学習の結果記録 | train_current_hold_adapter |
+| `metadata/visual_training.json` | 最終ローダーが参照する結果・保持用観測のハッシュ | shared_loader |
 
 ## 教師データの内容
 
@@ -39,7 +39,7 @@
 
 ## データと重みの区別
 
-中間アダプターは `../result/model/development/current_hold_adapter.pt` に配置。最終構成の4ファイルはresult/modelにあります。重みは教師データとは分けています。
+中間アダプターのローカル配置先は `../result/model/development/current_hold_adapter.pt`、最終評価用の4つの重みの配置先は `result/model/` です。これらの `.pt` はGitHubに含まれていません。利用前にプロジェクトのバックアップから復元し、記録済みのハッシュと照合してください。
 
 ## 再現の範囲
 
@@ -47,4 +47,4 @@
 
 13観測ペア・86閉鎖目標・79XY介入目標は再利用した開発データです。独立した汎化テストや自律成功の証明ではありません。介入収集と最終自律評価を区別します。
 
-GitHub公開用の配布方法は未設定です。大容量データと重みの既存gitignoreは維持しています。
+GitHubには上表のNPZ 8ファイルを公開しています。別ディレクトリの検証用4ファイル・旧版1ファイルを合わせて、公開済みNPZは13ファイルです。上表の教師HDF5は現在のGitHubに含まれていないため、プロジェクトのバックアップから復元してください。依存一覧は整理済みPodパッケージを記録したもので、全依存ファイルのGitHub配布を保証するものではありません。既存のgitignoreは維持しており、追跡済みNPZは公開済みです。

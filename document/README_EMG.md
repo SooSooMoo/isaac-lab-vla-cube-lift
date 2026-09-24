@@ -90,3 +90,17 @@ The historical `update_portfolio_on_pod.py` targets the former folder name `isaa
 Do not cite intermediate September 17 results as final results. Original, extended, and trimmed videos serve different purposes. Disk quota was repeatedly exhausted; check available capacity before saving additional artifacts and protect verified models and data.
 
 The six former individual documents have been consolidated into this bilingual documentation. The English and Japanese versions cover the same scope. Earlier versions remain available in Git history.
+
+## 8. Terminology and package prerequisites
+
+- **Policy:** a model that maps observations and an instruction to robot actions.
+- **Adapter / residual:** a learned correction added to the base model's computation.
+- **Preservation anchors:** saved observations used to constrain changes to existing action outputs; matching them does not guarantee matching future trajectories.
+- **Logit:** a numerical model output used to decide whether to open or close the gripper.
+- **Closed-loop execution:** each action changes the scene, and the next action uses a new observation.
+- **xyzw:** the component order of a quaternion representing orientation.
+- **XY attenuation:** reduction of horizontal action commands; in this implementation a score of 0 leaves them unchanged and 1 fully suppresses them.
+
+Read the root overview first, then the code README, and Section 6 above for reproduction. At 50 control steps per second, 50 steps represent 1 second and 10 steps represent 0.2 seconds.
+
+`check_package.py` checks the source inventory even without `--require-imported`. Before expecting a complete package check to pass, restore `datasets/demonstrations/two_instruction.hdf5` and `result/model/development/current_hold_adapter.pt` from the project backup. With `--require-imported`, the imported artifacts must also be present and match their manifest. A GitHub checkout alone is not the complete runnable package. Preserve all recorded weight and data hashes; do not replace them to make a check pass.

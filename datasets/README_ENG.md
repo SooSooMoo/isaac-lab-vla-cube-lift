@@ -4,7 +4,7 @@
 
 ## Included Files
 
-This collection includes the teacher HDF5, two visual observation files, gripper-retention and XY-intervention inputs, teacher hold data, three preservation-anchor files, language-pair targets, and verification/training JSON. Files with repeated names have descriptive destination names. Original experiment files are unchanged. The consumers field in the dependency manifest identifies the training script that reads each file. Some JSON files contain supervision or required verification metadata, not merely logs.
+The dependency list covers the externally stored teacher HDF5, two visual observation files, gripper-retention and XY-intervention inputs, teacher hold data, three preservation-anchor files, language-pair targets, and verification/training JSON. Files with repeated names have descriptive destination names. Original experiment files are unchanged. The consumers field in the dependency manifest identifies the training script that reads each file. Some JSON files contain supervision or required verification metadata, not merely logs.
 
 | File (relative to datasets/) | Contents | Used by |
 |---|---|---|
@@ -37,10 +37,10 @@ This collection includes the teacher HDF5, two visual observation files, gripper
 
 ## Weights and Reproduction Scope
 
-The intermediate adapter is stored separately at `../result/model/development/current_hold_adapter.pt`. The four final artifacts remain under result/model.
+The expected local path for the intermediate adapter is `../result/model/development/current_hold_adapter.pt`; final evaluation expects four weight files under `result/model/`. These `.pt` files are not included in the GitHub checkout. Restore them from the project backup and verify their recorded hashes before use.
 
 This organizes direct data dependencies of the four shipped training scripts and the intermediate weight. It does not include every historical training input needed to build the base checkpoint from scratch. The Isaac Lab environment and external wrappers are still required. Existing scripts retain their original Pod paths; importing data does not automatically redirect those scripts.
 
 The 13 observation pairs, 86 closure targets, and 79 XY-intervention targets reuse development trajectories. They are not independent generalization tests or evidence of autonomous success. Intervention collection is distinct from final autonomous evaluation.
 
-Public dataset hosting is not configured. Existing Git exclusions for large data and weights are retained.
+GitHub includes the eight NPZ files listed above, plus four verification traces and one historical trace elsewhere in the repository (13 NPZ files in total). The teacher HDF5 listed above is not included in the current GitHub checkout; restore it from the project backup. The dependency manifest describes the organized Pod package, not a guarantee that every dependency is distributed on GitHub. Existing Git exclusions remain in place; tracked NPZ files are already published.

@@ -1,6 +1,6 @@
 # Isaac Lab：画像と言語でcubeを操作するVLA
 
-**同じモデルで「cubeの上へ移動」と「cubeを持ち上げる」を実行 **
+**同じモデルで「cubeの上へ移動」と「cubeを持ち上げる」を実行**
 <table>
   <tr>
     <td align="center">
@@ -45,7 +45,7 @@
 ## フォルダ
 
 - `code/`：モデル・推論・学習・評価・動画処理
-- `datasets/`：元データの画像例、データ構成
+- `datasets/`：観測データ、保持用観測、言語目標、メタデータ、教師データの画像例
 - `result/`：モデルの識別情報、検証記録、動画
 - `document/`：方法、環境、再現手順、更新履歴
 - `history/`：履歴管理用フォルダ。元プロジェクト：[isaac-lab-vla-cube-lift_1](history/isaac-lab-vla-cube-lift_1)。

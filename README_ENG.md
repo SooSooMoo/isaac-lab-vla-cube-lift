@@ -38,15 +38,15 @@ Fixed initial state and two exact instructions. Geometric criteria do not establ
 
 With three seconds of continued inference, above drifts and pick drops the cube. Presentation clips end before these events; sustained post-success stability is not claimed. Full recordings are retained.
 
-The previous snapshot is retained in an external backup; the history directory is reserved for future records. It is superseded by the September 18 numerical results and September 19 video edits. This task-specific policy is not a foundation-model VLA benchmark.
+The previous snapshot is retained in an external backup; the history directory contains the earlier Version 1 project. It is superseded by the September 18 numerical results and September 19 video edits. This task-specific policy is not a foundation-model VLA benchmark.
 
 ## Folders
 
 - code/: Model, inference, training, evaluation, video processing
-- datasets/: Examples of raw images, data structure
+- datasets/: Observation data, preservation anchors, language targets, metadata, and dataset examples
 - result/: Model identification details, validation records, videos
 - document/: Methodology, environment, reproduction steps, update history
-- history/: Folder for history management.: isaac-lab-vla-cube-lift_1：[isaac-lab-vla-cube-lift_1](history/isaac-lab-vla-cube-lift_1)。
+- history/: [Earlier Version 1 project](history/isaac-lab-vla-cube-lift_1/README_ENG.md)
 
 ## Notes
 

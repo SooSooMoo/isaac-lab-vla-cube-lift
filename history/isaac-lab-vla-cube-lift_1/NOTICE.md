@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-This repository contains original project code and materials licensed under the BSD 3-Clause License in the root `LICENSE` file, except where a file or component states otherwise.
+This repository contains original project code and materials licensed under the BSD 3-Clause License in the `LICENSE` file in this historical Version 1 directory, except where a file or component states otherwise.
 
 Third-party software, source-derived files, trademarks, and assets remain subject to their respective licenses and copyright notices.
 
@@ -48,7 +48,7 @@ NVIDIA, Isaac Sim, Omniverse, Isaac Lab, Franka, Robomimic, and other names may 
 
 # 第三者ソフトウェアに関する通知（日本語）
 
-本リポジトリ独自のコードと成果物には、別記がない限りルートの英語版 `LICENSE` にあるBSD 3-Clause Licenseを適用します。第三者コード、依存関係、商標、アセットには、それぞれのライセンスと著作権表示が適用されます。
+本リポジトリ独自のコードと成果物には、別記がない限りこの旧版ディレクトリ内の英語版 `LICENSE` にあるBSD 3-Clause Licenseを適用します。第三者コード、依存関係、商標、アセットには、それぞれのライセンスと著作権表示が適用されます。
 
 ## Isaac Lab
 

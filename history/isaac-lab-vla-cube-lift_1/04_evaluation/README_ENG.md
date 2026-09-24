@@ -47,7 +47,7 @@ Main arguments:
 
 ## Offline Teacher-Forced Diagnostic
 
-The offline diagostic sequentially feeds observations recorded in the HDF5 dataset to the model and compares predictions with expert actions. Predicted actions are not applied to the Isaac Lab environment.
+The offline diagnostic sequentially feeds observations recorded in the HDF5 dataset to the model and compares predictions with expert actions. Predicted actions are not applied to the Isaac Lab environment.
 
 ```bash
 cd /workspace/IsaacLab-develop

@@ -6,7 +6,7 @@
 
 | パス | 内容 |
 |---|---|
-| `02_collect_demonstrations.py` | State Machineを使用して成功デモを収雀します |
+| `02_collect_demonstrations.py` | State Machineを使用して成功デモを収集します |
 | `data/metadata/` | データセット件数、shape、収集条件などのメタデータを保存します |
 | `data/samples/` | GitHubで構造を確認するための小さなサンプルデータを保存します |
 

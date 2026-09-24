@@ -1,6 +1,6 @@
 # BSD 3-Clause License 日本語参考訳
 
-> この文書は、リポジトリ直下の `LICENSE` に収録されたBSD 3-Clause Licenseの理解を補助するための非公式な日本語参考訳です。法的効力を持つ正式なライセンス条件は英語版 `LICENSE` です。英語版と本参考訳の内容に相違がある場合は、英語版が優先されます。
+> この文書は、この旧版ディレクトリ内の `LICENSE` に収録されたBSD 3-Clause Licenseの理解を補助するための非公式な日本語参考訳です。法的効力を持つ正式なライセンス条件は英語版 `LICENSE` です。英語版と本参考訳の内容に相違がある場合は、英語版が優先されます。
 
 Copyright (c) 2026, isaac-lab-vla-cube-lift contributors
 All rights reserved.
