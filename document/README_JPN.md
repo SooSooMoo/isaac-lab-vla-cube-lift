@@ -1,5 +1,8 @@
 # 方法と再現条件
 
+[English](README_ENG.md)
+
+
 ## 構成
 凍結ResNet18のlayer2までの特徴を各カメラで5×5へ集約し、ロボット状態と合わせて6409次元を入力します。256→64→3のGELUヘッドでCube−EEFの相対位置を推定します。学習は位置推定のみです。
 
@@ -15,10 +18,10 @@ XYオフセットは初期Cube中心約(0.573153, 0.039928, 0.055)mからの移�
 
 現環境での再評価は、保存コードに記載された依存ファイルを確認し、`/isaac-sim/python.sh -u /workspace/step4/check_visual_validation26.py`を実行します。続いてランダム5地点とX正側4地点のスクリプトを使用します。各候補・元データの識別情報は`result/training/protocol.json`、評価設定は各`protocol.json`に保存されています。
 
-初期状態データや学習画像、NVIDIAの資産はこの公開準備パッケージには同梱していません。新環境への完全再現手順は未検証です。モデルと動画はRunPodでSHA-256照合後に組み込む方式です。
+初期状態データや学習画像、NVIDIAの資産はこの公開パッケージには同梱していません。新環境への完全再現手順は未検証です。モデルと動画はSHA-256照合後に公開済みです。
 
 ## 実行環境
 RTX4090、torch 2.11.0+cu128、torchvision 0.26.0+cu128、numpy 2.5.3、gymnasium 1.2.1。これらは成功時の記録で、汎用互換性の保証ではありません。
 
-## 履歴説明の訂正
-前回READMEは成功後3秒継続時のpick落下を記載しています。historyの案内へ追加した「3秒維持確認済み」という文は前回公開物と不整合のため、今回の公開時に訂正します。前回アーカイブの原文は保持します。
+## 資料の入口
+[コード](../code/README_JPN.md) · [データ](../datasets/README_JPN.md) · [モデル](../result/models/README_JPN.md) · [検証](../result/evidence/README_JPN.md) · [動画](../result/evidence/videos/README_JPN.md)

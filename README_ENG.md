@@ -36,3 +36,13 @@ Original pre-action table (left) and wrist (right) inputs at 50 fps, real-time p
 
 ## Limitations and future work
 Repeated-trial success rates, full-region coverage, and different initial poses or camera conditions remain unverified. Expansion to ±40 or ±50 mm is undecided. Color recognition is a separate project.
+
+<!-- portfolio-docs:start -->
+## Documentation
+- [Code](code/README_ENG.md)
+- [Datasets](datasets/README_ENG.md)
+- [Model](result/models/README_ENG.md)
+- [Methods](document/README_ENG.md)
+- [Evidence](result/evidence/README_ENG.md)
+- [Videos](result/evidence/videos/README_ENG.md)
+<!-- portfolio-docs:end -->

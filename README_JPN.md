@@ -36,3 +36,13 @@
 
 ## 今後の課題
 位置全域での保証、反復成功率、別の初期姿勢やカメラ条件は未確認です。±40mm・±50mmへの拡張は実施未定です。色判定は別プロジェクトとして扱います。
+
+<!-- portfolio-docs:start -->
+## 詳細資料
+- [コード](code/README_JPN.md)
+- [データセット](datasets/README_JPN.md)
+- [モデル](result/models/README_JPN.md)
+- [技術説明](document/README_JPN.md)
+- [検証記録](result/evidence/README_JPN.md)
+- [動画](result/evidence/videos/README_JPN.md)
+<!-- portfolio-docs:end -->
