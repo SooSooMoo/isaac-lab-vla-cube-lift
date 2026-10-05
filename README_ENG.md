@@ -1,4 +1,6 @@
-# Franka Cube Pick with Learned Visual Localization and Staged Control
+# Isaac Lab: Grasping and Lifting a Cube at Arbitrary Positions
+
+**Successful pick and three-second hold at 35 tested positions within ±30 mm along both X and Y.**
 
 [日本語](README_JPN.md)
 

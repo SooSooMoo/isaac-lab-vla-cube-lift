@@ -1,4 +1,6 @@
-# 画像位置推定と段階制御によるFrankaのCube pick
+# Isaac Lab：任意の位置のCubeをつかんで持ち上げる
+
+**XY各±30mm内の35地点で、pick・3秒維持に成功**
 
 [English](README_ENG.md)
 
