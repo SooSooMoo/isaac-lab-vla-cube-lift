@@ -1,0 +1,43 @@
+{
+  "offset_mm": [
+    0.0,
+    0.0
+  ],
+  "teacher_only": false,
+  "pick_pass": true,
+  "hold_3s_pass": true,
+  "first_success_step": 738,
+  "first_close_step": 567,
+  "samples": 889,
+  "last_phase": "lift",
+  "stop_reason": "success_then_3s_teacher_control",
+  "required_height_mm": 120.99961787462234,
+  "maximum_cube_height_after_settle_mm": 176.1264190673828,
+  "hold_minimum_height_mm": 128.420654296875,
+  "pick_maximum_xy_mm": 8.079018592834473,
+  "hold_maximum_xy_mm": 6.883408546447754,
+  "minimum_arm_joint_margin_rad": 0.25794506072998047,
+  "phase_best_position_error_mm": {
+    "approach": 9.109418666112884,
+    "close": 7.908919059114041,
+    "descend": 8.767641130342076,
+    "lift": 16.921627974815564,
+    "settle": 276.07580776557245
+  },
+  "pass": true,
+  "dataset_collected": false,
+  "training_performed": false,
+  "result_directory": "/workspace/step4/portfolio_video3__67170le/trial_01",
+  "oracle_state": false,
+  "learned_policy": false,
+  "learned_perception": true,
+  "structured_controller": true,
+  "hold_target_fixed": true,
+  "hold_target_source": "existing_lift_goal",
+  "perception_filter": "environment_position_ema_alpha_0.2",
+  "video_file": "/workspace/step4/portfolio_video3__67170le/trial_01/table_and_wrist.mp4",
+  "decoded_frames": 889,
+  "fps": 50.0,
+  "video_views": "left: table_cam; right: wrist_cam; original pre-action inputs, real-time playback",
+  "video_sha256": "a1a92f8752b8492e286d3734414b2a4640805603bef66f29c65271d979f3ddbe"
+}

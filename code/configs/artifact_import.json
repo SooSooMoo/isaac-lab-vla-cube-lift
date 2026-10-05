@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "source": "/workspace/step4/spatial_cube_oracle30_refit_n1yvrn5i/candidate.pt",
+      "destination": "result/models/cube_position_estimator.pt",
+      "sha256": "9a5004fe9ad27b4266b08002842cd5d48eac57235d3d57f8405bbc38feec719f",
+      "bytes": 9455338
+    },
+    {
+      "source": "/workspace/step4/portfolio_video3__67170le/trial_01/table_and_wrist.mp4",
+      "destination": "result/evidence/videos/position_01.mp4",
+      "sha256": "a1a92f8752b8492e286d3734414b2a4640805603bef66f29c65271d979f3ddbe",
+      "bytes": 463898
+    },
+    {
+      "source": "/workspace/step4/portfolio_video3__67170le/trial_02/table_and_wrist.mp4",
+      "destination": "result/evidence/videos/position_02.mp4",
+      "sha256": "0cdd17e61be36b567d18c4a77d126f8710c3d459da01a469ba313cd7e4513b3f",
+      "bytes": 464153
+    },
+    {
+      "source": "/workspace/step4/portfolio_video3__67170le/trial_03/table_and_wrist.mp4",
+      "destination": "result/evidence/videos/position_03.mp4",
+      "sha256": "16d93d9aa926d1dc1405a00473ee04401e3e1473356027fd182d333e34f5c61e",
+      "bytes": 490970
+    }
+  ]
+}

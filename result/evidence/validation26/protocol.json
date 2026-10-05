@@ -1,0 +1,121 @@
+{
+  "oracle_state": false,
+  "learned_policy": false,
+  "learned_perception": true,
+  "evaluation_scope": "regression: fixed13 + previously evaluated random5 + grid30 eight; no fresh random claim",
+  "positions": [
+    [
+      0,
+      0
+    ],
+    [
+      10,
+      0
+    ],
+    [
+      -10,
+      0
+    ],
+    [
+      0,
+      -10
+    ],
+    [
+      0,
+      10
+    ],
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ],
+    [
+      -20,
+      -20
+    ],
+    [
+      -20,
+      20
+    ],
+    [
+      20,
+      -20
+    ],
+    [
+      20,
+      20
+    ],
+    [
+      -8.927,
+      -8.147
+    ],
+    [
+      -13.82,
+      2.136
+    ],
+    [
+      -19.123,
+      -15.53
+    ],
+    [
+      -8.512,
+      -8.622
+    ],
+    [
+      15.344,
+      5.632
+    ],
+    [
+      -30,
+      0
+    ],
+    [
+      30,
+      0
+    ],
+    [
+      0,
+      -30
+    ],
+    [
+      0,
+      30
+    ],
+    [
+      -30,
+      -30
+    ],
+    [
+      -30,
+      30
+    ],
+    [
+      30,
+      -30
+    ],
+    [
+      30,
+      30
+    ]
+  ],
+  "reference_run": "/workspace/step4/visual_structured_grid_mswr833h",
+  "checkpoint_sha256": "9a5004fe9ad27b4266b08002842cd5d48eac57235d3d57f8405bbc38feec719f",
+  "seed": 2058,
+  "horizon": 1300,
+  "perception_filter": "EMA alpha=.2 in environment coordinates; reset every trial",
+  "position_threshold_m": 0.01,
+  "required_stable_steps": 5,
+  "hold_seconds": 3,
+  "hold_target": "existing lift goal and original downward orientation"
+}

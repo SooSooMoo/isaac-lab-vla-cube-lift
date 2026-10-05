@@ -1,0 +1,10 @@
+PORTFOLIO_VIDEO3_SUMMARY
+trial | dx_mm dy_mm | pass | first_close | first_success | hold_min_height_mm | hold_max_xy_mm
+1 | 0 0 | True | 567 | 738 | 128.42 | 6.88
+2 | -30 30 | True | 593 | 759 | 128.67 | 10.43
+3 | 30 -30 | True | 596 | 772 | 128.39 | 7.05
+TOTAL 3/3; oracle_state=False; learned_policy=False; learned_perception=True
+VIDEO {"offset_mm": [0.0, 0.0], "pass": true, "video_file": "/workspace/step4/portfolio_video3__67170le/trial_01/table_and_wrist.mp4", "decoded_frames": 889, "fps": 50.0}
+VIDEO {"offset_mm": [-30.0, 30.0], "pass": true, "video_file": "/workspace/step4/portfolio_video3__67170le/trial_02/table_and_wrist.mp4", "decoded_frames": 910, "fps": 50.0}
+VIDEO {"offset_mm": [30.0, -30.0], "pass": true, "video_file": "/workspace/step4/portfolio_video3__67170le/trial_03/table_and_wrist.mp4", "decoded_frames": 923, "fps": 50.0}
+RESULT_DIRECTORY /workspace/step4/portfolio_video3__67170le

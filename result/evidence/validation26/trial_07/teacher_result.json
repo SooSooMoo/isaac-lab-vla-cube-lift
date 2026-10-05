@@ -1,0 +1,38 @@
+{
+  "offset_mm": [
+    20.0,
+    0.0
+  ],
+  "teacher_only": false,
+  "pick_pass": true,
+  "hold_3s_pass": true,
+  "first_success_step": 762,
+  "first_close_step": 588,
+  "samples": 913,
+  "last_phase": "lift",
+  "stop_reason": "success_then_3s_teacher_control",
+  "required_height_mm": 120.99961787462234,
+  "maximum_cube_height_after_settle_mm": 175.213134765625,
+  "hold_minimum_height_mm": 127.91889953613281,
+  "pick_maximum_xy_mm": 7.992201328277588,
+  "hold_maximum_xy_mm": 6.56814432144165,
+  "minimum_arm_joint_margin_rad": 0.26020193099975586,
+  "phase_best_position_error_mm": {
+    "approach": 8.970184160423234,
+    "close": 8.201415021902786,
+    "descend": 9.016365736595338,
+    "lift": 17.68956711797129,
+    "settle": 279.1659459341651
+  },
+  "pass": true,
+  "dataset_collected": false,
+  "training_performed": false,
+  "result_directory": "/workspace/step4/oracle30_trained_validation26_cqz8ofl_/trial_07",
+  "oracle_state": false,
+  "learned_policy": false,
+  "learned_perception": true,
+  "structured_controller": true,
+  "hold_target_fixed": true,
+  "hold_target_source": "existing_lift_goal",
+  "perception_filter": "environment_position_ema_alpha_0.2"
+}

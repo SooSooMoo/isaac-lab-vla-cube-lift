@@ -1,0 +1,9 @@
+VISUAL_RANDOM30_SUMMARY
+trial | dx_mm dy_mm | pass | first_close | first_success | hold_min_height_mm | hold_max_xy_mm
+1 | -2.12 15.26 | True | 575 | 746 | 128.41 | 6.46
+2 | -21.914 -6.215 | True | 590 | 757 | 128.60 | 7.78
+3 | -24.981 -19.628 | True | 586 | 752 | 128.44 | 9.75
+4 | -4.286 24.037 | True | 575 | 746 | 128.62 | 6.95
+5 | -18.254 4.408 | True | 565 | 733 | 128.55 | 8.07
+TOTAL 5/5; oracle_state=False; learned_policy=False; learned_perception=True
+RESULT_DIRECTORY /workspace/step4/visual_random30_3b_vsy1t

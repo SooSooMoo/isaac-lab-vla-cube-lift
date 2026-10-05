@@ -1,0 +1,29 @@
+{
+  "oracle_state": false,
+  "learned_policy": false,
+  "learned_perception": true,
+  "evaluation_scope": "three representative video recordings; assess each recorded trial independently",
+  "positions": [
+    [
+      0,
+      0
+    ],
+    [
+      -30,
+      30
+    ],
+    [
+      30,
+      -30
+    ]
+  ],
+  "reference_run": "/workspace/step4/visual_structured_grid_mswr833h",
+  "checkpoint_sha256": "9a5004fe9ad27b4266b08002842cd5d48eac57235d3d57f8405bbc38feec719f",
+  "seed": 2058,
+  "horizon": 1300,
+  "perception_filter": "EMA alpha=.2 in environment coordinates; reset every trial",
+  "position_threshold_m": 0.01,
+  "required_stable_steps": 5,
+  "hold_seconds": 3,
+  "hold_target": "existing lift goal and original downward orientation"
+}
