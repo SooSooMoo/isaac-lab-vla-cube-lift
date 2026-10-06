@@ -1,4 +1,4 @@
-# Isaac Lab: Grasping and Lifting a Cube at Arbitrary Positions
+# Isaac Lab: Grasping and Lifting a Cube at Arbitrary Positions　※It is currently not a VLA. It is being revised.
 
 **Successful pick and three-second hold at 35 tested positions within ±30 mm along both X and Y.**
 
