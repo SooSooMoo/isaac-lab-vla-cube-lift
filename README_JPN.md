@@ -1,4 +1,4 @@
-# Isaac Lab：言語指示と画像でCubeをつかんで持ち上げる
+# Isaac Lab：言語指示と画像で任意の場所のCubeをつかんで持ち上げる
 
 ![四象限でのCubeの持ち上げ・保持](result/evidence/images/four_quadrants.png)
 
