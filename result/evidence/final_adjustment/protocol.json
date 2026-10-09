@@ -1,0 +1,8 @@
+{
+  "source": "/workspace/step4/vla_northwest_gripper780_fit_lmmqdnik/candidate.pt",
+  "source_sha256": "84a8efdd7c6feb9fee37e66132ca7c5efcb0398680cc8c7f4c73f173ccb0f7e2",
+  "preservation_results_sha256": "d7c58d9ccd38d75228c1f378f0a25da86eca3b01083cfe512eff170194395299",
+  "diagnostic_features_sha256": "ed34acb235cd4407fdaf96fea6031d691b6fc04ff834a19ca13d5424203fb065",
+  "scope": "preserve 26 successful trajectory labels and fit three successful diagnostic closure sequences; saved-state constraints are not rollout proof",
+  "runtime_action_override": false
+}

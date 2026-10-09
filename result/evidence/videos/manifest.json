@@ -1,0 +1,66 @@
+[
+  {
+    "offset_mm": [
+      24.0,
+      9.0
+    ],
+    "archive_path": "videos/x24_y9.mp4",
+    "source": "/workspace/step4/vla_portfolio_video4_zs4zysqa/x24_y9/table_and_wrist.mp4",
+    "bytes": 186374,
+    "sha256": "9f204b95fbffb6fc022fb735e04afc04a069f591d90951b55bf34475fa983a8f",
+    "frames": 906,
+    "fps": 50,
+    "pass_result": true,
+    "user_visual_review": "approved",
+    "user_visual_review_date": "2026-10-09",
+    "repository_path": "result/evidence/videos/x24_y9.mp4"
+  },
+  {
+    "offset_mm": [
+      -24.0,
+      9.0
+    ],
+    "archive_path": "videos/x-24_y9.mp4",
+    "source": "/workspace/step4/vla_portfolio_video4_zs4zysqa/x-24_y9/table_and_wrist.mp4",
+    "bytes": 177780,
+    "sha256": "40c2a1b434f9cb4738a1c23496dcebccaa18d81a4a36083e5f407adfb665f948",
+    "frames": 892,
+    "fps": 50,
+    "pass_result": true,
+    "user_visual_review": "approved",
+    "user_visual_review_date": "2026-10-09",
+    "repository_path": "result/evidence/videos/x-24_y9.mp4"
+  },
+  {
+    "offset_mm": [
+      -24.0,
+      -9.0
+    ],
+    "archive_path": "videos/x-24_y-9.mp4",
+    "source": "/workspace/step4/vla_portfolio_video4_zs4zysqa/x-24_y-9/table_and_wrist.mp4",
+    "bytes": 166423,
+    "sha256": "23421eb006855b3779a403b3ebb1d18d21b090d86385e1c42bc27696785ff165",
+    "frames": 847,
+    "fps": 50,
+    "pass_result": true,
+    "user_visual_review": "approved",
+    "user_visual_review_date": "2026-10-09",
+    "repository_path": "result/evidence/videos/x-24_y-9.mp4"
+  },
+  {
+    "offset_mm": [
+      24.0,
+      -9.0
+    ],
+    "archive_path": "videos/x24_y-9.mp4",
+    "source": "/workspace/step4/vla_portfolio_video4_zs4zysqa/x24_y-9/table_and_wrist.mp4",
+    "bytes": 187657,
+    "sha256": "d16d7d74958e5353abe1499bb738cb9f38b0aca52c2b7a1ba31a2d80cabd3e5c",
+    "frames": 947,
+    "fps": 50,
+    "pass_result": true,
+    "user_visual_review": "approved",
+    "user_visual_review_date": "2026-10-09",
+    "repository_path": "result/evidence/videos/x24_y-9.mp4"
+  }
+]

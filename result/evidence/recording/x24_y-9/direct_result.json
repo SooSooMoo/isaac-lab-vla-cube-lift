@@ -1,0 +1,40 @@
+{
+  "offset_mm": [
+    24.0,
+    -9.0
+  ],
+  "teacher_only": false,
+  "learned_policy": true,
+  "uses_corrections": true,
+  "uses_progress_input": false,
+  "pick_pass": true,
+  "hold_3s_pass": true,
+  "first_success_step": 796,
+  "first_close_step": 616,
+  "samples": 947,
+  "last_phase": "policy",
+  "stop_reason": "success_then_3s_policy_control",
+  "required_height_mm": 120.999601110816,
+  "maximum_cube_height_after_settle_mm": 185.0764923095703,
+  "hold_minimum_height_mm": 127.08704376220703,
+  "pick_maximum_xy_mm": 12.33253288269043,
+  "hold_maximum_xy_mm": 11.805728912353516,
+  "minimum_arm_joint_margin_rad": 0.25959348678588867,
+  "phase_best_position_error_mm": {
+    "policy": 11.37792919677398
+  },
+  "pass": true,
+  "dataset_collected": false,
+  "training_performed": false,
+  "result_directory": "/workspace/step4/vla_portfolio_video4_zs4zysqa/x24_y-9",
+  "language_encoder_calls": 947,
+  "model_action_calls": 947,
+  "runtime_action_override": false,
+  "preserve_features_file": "/workspace/step4/vla_portfolio_video4_zs4zysqa/x24_y-9/preserve_features.pt",
+  "reference_exact": null,
+  "preserve_features_sha256": "0a1886c8cced8be949b08c8b73af4f314828d1368dfdb3d2e15db1202682938f",
+  "video_file": "/workspace/step4/vla_portfolio_video4_zs4zysqa/x24_y-9/table_and_wrist.mp4",
+  "decoded_frames": 947,
+  "fps": 50,
+  "video_sha256": "d16d7d74958e5353abe1499bb738cb9f38b0aca52c2b7a1ba31a2d80cabd3e5c"
+}

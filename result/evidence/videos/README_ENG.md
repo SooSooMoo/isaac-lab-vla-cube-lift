@@ -1,13 +1,11 @@
 # Demonstration videos
 
-[日本語](README_JPN.md)
+Four quadrant demonstrations of the same model. Each video shows the table camera on the left and wrist camera on the right at real-time 50 fps. All four recordings passed pick and three-second hold checks and were visually reviewed. Recording trials are not added to the evaluation counts below.
 
-| XY mm | Video | Frames | Seconds |
-|---|---|---:|---:|
-| 0,0 | [position_01.mp4](position_01.mp4) | 889 | 17.78 |
-| −30,+30 | [position_02.mp4](position_02.mp4) | 910 | 18.20 |
-| +30,−30 | [position_03.mp4](position_03.mp4) | 923 | 18.46 |
+| X−24, Y＋9 mm | X＋24, Y＋9 mm |
+|---|---|
+| [▶ X−24 / Y＋9](x-24_y9.mp4) | [▶ X＋24 / Y＋9](x24_y9.mp4) |
+| **X−24, Y−9 mm** | **X＋24, Y−9 mm** |
+| [▶ X−24 / Y−9](x-24_y-9.mp4) | [▶ X＋24 / Y−9](x24_y-9.mp4) |
 
-All three runs passed numerical pick and three-second hold checks and user visual review. Playback is real-time at 50 fps: table view left, wrist view right. Frames are pre-action inputs. No trimming, speed-up, inserted stills or substituted actions. The final post-action state is covered by numerical logs.
-
-[Recording results](results.json), [recording script](../../../code/snapshots/record_portfolio_video3.py), and [hashes](../../../code/configs/artifact_import.json) document provenance.
+[Manifest](manifest.json)

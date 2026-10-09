@@ -1,48 +1,55 @@
-# Isaac Lab: Grasping and Lifting a Cube at Arbitrary Positions　※It is currently not a VLA. It is being revised.
+# Isaac Lab: Grasping and Lifting a Cube with Language and Vision
 
-**Successful pick and three-second hold at 35 tested positions within ±30 mm along both X and Y.**
+**Model weights are not published.** This repository provides implementation, evaluation evidence, and videos. Inference requires a separate checkpoint and cannot run from the public files alone.
 
 [日本語](README_JPN.md)
 
-## Goal and results
-One visual position estimator and one staged controller passed pick and three-second hold checks at 35 distinct Cube placements within XY offsets of ±30 mm from the baseline placement. Each location contributed one trial to this aggregate; this is not a guarantee for the entire region or a general 100% success rate.
+**Given “pick up the cube” and camera images, Franka grasps a cube, lifts it, and holds it for three seconds.**
 
-## Architecture
-Table and wrist camera images and robot state feed a learned Cube-relative position estimator. Estimated environment coordinates are smoothed with an EMA coefficient of 0.2. Explicit approach, descend, close, lift, and hold stages drive the robot. Ground-truth Cube position is used for scoring, not as a control input during visual evaluation.
+This simulated VLA policy takes table-camera and wrist-camera images, robot state, and a language instruction. A learned model outputs arm and gripper actions.
 
-This result concerns learned perception plus staged control, not an end-to-end learned action policy or newly verified language instruction switching.
+## Videos
 
-## Evaluation
-- Previously evaluated locations: 26/26
-- New random locations within ±30 mm: 5/5
-- Additional stratified positive-X locations: 4/4
-- Lowest hold height across the 35 trials: 127.87 mm
-- Largest horizontal displacement: 10.45 mm
-- Checks include lifting at least 100 mm above settled height, maintaining the required height for three seconds after success, and horizontal displacement within 50 mm. Contact-force validation is not included.
+Four quadrant demonstrations of the same model. Each video shows the table camera on the left and wrist camera on the right at real-time 50 fps. All four recordings passed pick and three-second hold checks and were visually reviewed. Recording trials are not added to the evaluation counts below.
 
-## Lessons
-Downward bias in estimated Cube height prevented closure. Aligned observations from a failed rollout helped repair the ±20 mm case. For a remaining ±30 mm case, adding only a failed trajectory degraded approach behavior. Ground-truth control succeeded there; adding its complete successful approach-to-hold trajectory produced the model that passed the 35-location evaluation.
-
-## Demonstration videos
-
-Original pre-action table (left) and wrist (right) inputs at 50 fps, real-time playback. No trimming, speed-up, or action replacement. All three recording trials passed pick and three-second hold checks and were visually approved by the user.
-
-- [Center: 17.78 s](result/evidence/videos/position_01.mp4)
-- [X−30, Y+30 mm: 18.20 s](result/evidence/videos/position_02.mp4)
-- [X+30, Y−30 mm: 18.46 s](result/evidence/videos/position_03.mp4)
-
-[35-location results](result/evidence/README.md) · [Methods and reproduction](document/README_ENG.md) · [Previous above/pick portfolio](history/isaac-lab-vla-cube-lift_2/README_ENG.md)
+| X−24, Y＋9 mm | X＋24, Y＋9 mm |
+|---|---|
+| [▶ X−24 / Y＋9](result/evidence/videos/x-24_y9.mp4) | [▶ X＋24 / Y＋9](result/evidence/videos/x24_y9.mp4) |
+| **X−24, Y−9 mm** | **X＋24, Y−9 mm** |
+| [▶ X−24 / Y−9](result/evidence/videos/x-24_y-9.mp4) | [▶ X＋24 / Y−9](result/evidence/videos/x24_y-9.mp4) |
 
 
-## Limitations and future work
-Repeated-trial success rates, full-region coverage, and different initial poses or camera conditions remain unverified. Expansion to ±40 or ±50 mm is undecided. Color recognition is a separate project.
+## Results
 
-<!-- portfolio-docs:start -->
+| Evaluation | Result |
+|---|---:|
+| 29 positions used during development | 29/29 successful |
+| 8 additional positions first evaluated with the frozen model | 7/8 successful |
+
+Positions lie within ±30 mm on each XY axis relative to the reference placement. The additional set contains two positions per quadrant. These are individual trials, not a guarantee of success throughout the square or an estimate of general reliability.
+
+At `(11, −23) mm`, approach misalignment led to a failed lift. The failure is included in the evidence. This portfolio freezes the model from that evaluation, separately from subsequent repair experiments.
+
+## Language, vision, and action
+
+- **Language:** Data use `pick up the cube`; inference tokenizes that instruction and executes the language encoder.
+- **Vision:** RGB images from the table and wrist cameras.
+- **Action:** Fused visual, language, and robot-state features feed a causal GRU that outputs seven action dimensions.
+
+No teacher overrides actions during these evaluations. Ground-truth cube coordinates are used for scoring and teacher collection, not as policy inputs.
+
+Training and evaluation use a single instruction. **Behavioral changes in response to different instruction meanings have not been verified.**
+
 ## Documentation
-- [Code](code/README_ENG.md)
-- [Datasets](datasets/README_ENG.md)
+
+- [Architecture and criteria](document/README_ENG.md)
+- [All 37 evaluated positions](result/evidence/README_ENG.md)
 - [Model](result/models/README_ENG.md)
-- [Methods](document/README_ENG.md)
-- [Evidence](result/evidence/README_ENG.md)
-- [Videos](result/evidence/videos/README_ENG.md)
-<!-- portfolio-docs:end -->
+- [Datasets](datasets/README_ENG.md)
+- [Code and reproduction readiness](code/README_ENG.md)
+
+## Limitations
+
+Results use fixed initial states, cameras, and a simulation environment. Real hardware, changed lighting or object shapes, and general success probabilities are untested. Grasping is assessed through lift and hold behavior, not contact-force validation.
+
+The earlier visual-position-estimator plus staged-controller result at 35 positions is not a result of this VLA model.

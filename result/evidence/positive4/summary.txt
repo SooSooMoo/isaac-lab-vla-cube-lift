@@ -1,8 +1,0 @@
-VISUAL_POSITIVE_X30_SUMMARY
-trial | dx_mm dy_mm | pass | first_close | first_success | hold_min_height_mm | hold_max_xy_mm
-1 | 14.972 -23.836 | True | 592 | 765 | 128.31 | 8.01
-2 | 12.324 0.347 | True | 579 | 752 | 128.30 | 6.61
-3 | 18.082 -2.793 | True | 585 | 759 | 128.24 | 6.79
-4 | 15.143 19.982 | True | 581 | 754 | 127.87 | 7.65
-TOTAL 4/4; oracle_state=False; learned_policy=False; learned_perception=True
-RESULT_DIRECTORY /workspace/step4/visual_positive_x30_rwh3iaea

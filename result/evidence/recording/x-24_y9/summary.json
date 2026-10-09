@@ -1,0 +1,38 @@
+{
+  "instruction": "pick up the cube",
+  "success": true,
+  "stop_reason": "success_then_3s_policy_control",
+  "teacher_type": "raw_corrected_data_vla",
+  "learned_language_policy": true,
+  "executed_steps": 892,
+  "step_dt": 0.02,
+  "reset_check": {
+    "eef_first_obs_error_m": 0.0,
+    "cube_position_error_m": 0.0,
+    "robot_joint_max_abs_error_rad": 0.0
+  },
+  "max_consecutive_above_hold_steps": 106,
+  "required_above_hold_steps": 50,
+  "max_consecutive_lift_steps": 160,
+  "final_above_error_m": 0.08847915772182602,
+  "final_cube_height_m": 0.20293714106082916,
+  "settled_cube_height_m": 0.020999610424041748,
+  "last_phase": "policy",
+  "settings": {
+    "quaternion": "xyzw; state canonicalized to w>=0",
+    "progress_denominator": 1200.0,
+    "forced_warmup": false,
+    "action_filtering": false
+  },
+  "checkpoint": "/workspace/step4/vla_interior_gripper29_fit_gx7ippj0/candidate.pt",
+  "checkpoint_sha256": "2cac0faa70e70ca69ad13553ef816aa8f2410213bc73f839cc9d0e3b441dace9",
+  "progress_denominator": 1200.0,
+  "limitations": [
+    "Fixed-state evaluation, not unseen-position generalization.",
+    "Model acts from step 0 without teacher warmup or output correction.",
+    "Pick is a lift proxy, not contact-force verification.",
+    "Cube coordinates are used for diagnostics and scoring only."
+  ],
+  "script_sha256": "90b31290127aa23fac2a9d5c23f6f19f4318c133c9463d05712ee7c064989751",
+  "frames": "/workspace/step4/vla_portfolio_video4_zs4zysqa/x-24_y9/frames"
+}

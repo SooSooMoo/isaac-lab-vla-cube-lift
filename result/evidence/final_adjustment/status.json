@@ -1,0 +1,7 @@
+{
+  "passed": 3,
+  "trials": 3,
+  "required_trials": 3,
+  "checkpoint": "/workspace/step4/vla_interior_gripper29_fit_gx7ippj0/candidate.pt",
+  "results": "/workspace/step4/vla_interior_gripper29_fit_gx7ippj0/combined_results.json"
+}

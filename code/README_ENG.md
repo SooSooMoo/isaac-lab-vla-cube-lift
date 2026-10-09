@@ -1,24 +1,13 @@
-# Code reference and execution order
+# Code
 
-[日本語](README_JPN.md)
+**Model weights are not published.** This repository provides implementation, evaluation evidence, and videos. Inference requires a separate checkpoint and cannot run from the public files alone.
 
-## Purpose
-The learned component estimates Cube position from images. Explicit approach, descend, close, lift and hold stages control the robot. This differs from the previous language/progress-conditioned action model.
+Inference is based on the evaluated worker, with paths and descriptions adapted for publication. The three model modules are byte-identical to the originals. The publication launcher is syntax-checked; a simulation using the reorganized code has not been run.
 
-## Scripts
-| File | Purpose and timing |
-|---|---|
-| [check_visual_validation26.py](snapshots/check_visual_validation26.py) | Evaluate the selected candidate at 26 existing positions |
-| [check_visual_random30.py](snapshots/check_visual_random30.py) | Evaluate five new random locations with frozen weights |
-| [check_visual_positive_x30.py](snapshots/check_visual_positive_x30.py) | Supplement coverage with four positive-X strata |
-| [record_portfolio_video3.py](snapshots/record_portfolio_video3.py) | Record and score three runs; verify decoded frame counts |
-| [train_spatial_cube_oracle30_refit.py](snapshots/train_spatial_cube_oracle30_refit.py) | Train the final candidate; unnecessary for evaluation-only use |
-| [artifact_import.json](configs/artifact_import.json) | Source paths and SHA-256 identities of published artifacts |
-
-Launchers store their worker in the SOURCE string, write it to a temporary directory, and launch Isaac Lab. Loading, control and scoring remain in that worker; implementation was not relocated to the explanatory folders.
-
-## Reading order
-[Model](model/README_ENG.md) → [Inference](inference/README_ENG.md) → [Collection](data_collection/README_ENG.md) → [Training](training/README_ENG.md) → [Evidence](../result/evidence/README_ENG.md).
-
-## Running
-On the original prepared Pod, use `/isaac-sim/python.sh -u code/snapshots/check_visual_validation26.py` and the corresponding other launchers. Absolute-path data, weights, initial state, smoke_utils and custom Isaac Lab are required. These are not standalone checkout-and-run CLIs. Documentation updates do not require retraining or simulation.
+An existing Isaac Lab installation must register the custom task `IsaacContrib-Lift-Cube-Franka-IK-Rel-Visuomotor`. The task configuration and initial-state HDF5 are not included. Additional setup is required on another machine.
+```bash
+/isaac-sim/python.sh code/inference/run.py \
+  --isaaclab /workspace/IsaacLab-develop \
+  --dataset /workspace/step4/baseline_inputs/datasets/lift_robomimic_language.hdf5 \
+  --output-dir /workspace/step4/vla_publication_check
+```

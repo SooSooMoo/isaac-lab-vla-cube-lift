@@ -1,5 +1,8 @@
 {
-  "path": "/workspace/step4/spatial_cube_oracle30_refit_n1yvrn5i/candidate.pt",
-  "sha256": "9a5004fe9ad27b4266b08002842cd5d48eac57235d3d57f8405bbc38feec719f",
-  "bytes": 9455338
+  "path": "/workspace/step4/vla_interior_gripper29_fit_gx7ippj0/candidate.pt",
+  "sha256": "2cac0faa70e70ca69ad13553ef816aa8f2410213bc73f839cc9d0e3b441dace9",
+  "bytes": 49396299,
+  "weights_published": false,
+  "expected_local_path": "result/models/candidate.pt",
+  "distribution_url": null
 }

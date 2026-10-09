@@ -1,0 +1,30 @@
+{
+  "checkpoint": "/workspace/step4/vla_interior_gripper29_fit_gx7ippj0/candidate.pt",
+  "sha256": "2cac0faa70e70ca69ad13553ef816aa8f2410213bc73f839cc9d0e3b441dace9",
+  "deterministic_algorithms": true,
+  "cudnn_tf32": false,
+  "cublas_workspace_config": ":4096:8",
+  "offsets_mm": [
+    [
+      24,
+      9
+    ],
+    [
+      -24,
+      9
+    ],
+    [
+      -24,
+      -9
+    ],
+    [
+      24,
+      -9
+    ]
+  ],
+  "acquisition_steps": 1300,
+  "hold_seconds": 3,
+  "variant": "gru128",
+  "learned_temporal_decoder": true,
+  "scope": "Pick-only VLA: 13 positions, one trial each; no retraining or action override"
+}

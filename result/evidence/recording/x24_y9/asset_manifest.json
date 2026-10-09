@@ -1,0 +1,248 @@
+[
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/instanceable_collision_meshes.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/bebf2dcb3a2b54d58c1375aa0d4fb99244c544b7c5970487872b33ff7416fa61.usd",
+    "source_sha256": "e2d053fdd789ea000f04c243d2323167038a4aa0883a9e418c92d936c771417e",
+    "dependencies": []
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Materials/Materials.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/6750629857672424f624238c6402044417b7794a616787ca8fbd7ab4561d44e7.usd",
+    "source_sha256": "163ad21137370dfa8f8fda6337fa5a84aab3b7dbcdd134c91792239272c33691",
+    "dependencies": []
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_rightfinger.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/ac8d62994914ccd77155a7750dc1931fdd6d479447a004d668a032c7f61883fd.usd",
+    "source_sha256": "c156a8aa36191c5debacb1048fd17a0d6d1939403d936db2235c8fd4ebcec926",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Materials/Materials.usd"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_leftfinger.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/61487aa22afb0b47a0f46894138058bdaa39ea1b833a34ec03b7199722436670.usd",
+    "source_sha256": "53725ac396c13d8f90960780626c00ef05acdf1d1a6043f7bd7bd879750e6270",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Materials/Materials.usd"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_hand.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/f3721f4fc28fda13e9bbb894692e826678e55a5db6ed069fcb5c50b19fa12cf1.usd",
+    "source_sha256": "9bead1ccc72d702d333074ae30e5352f4328290e7e64dbf072696f052ba12a90",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Materials/Materials.usd"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link7.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/4bab5890c1fc1dabda65e4bf0482ed3707e94570ab0c70b4379132feef2e6b8d.usd",
+    "source_sha256": "2f18324e59305650cf650d24d37e5bbe04e8f7e781da6e309105f6ec99840e0f",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Materials/Materials.usd"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link6.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/344de997247090bf3b5bbbf22eec623b5fafce98a9533b610f67c79fbacc1eb9.usd",
+    "source_sha256": "ca05c47f20b3711dea3a36aa27c70d9047ce8fbdf5945eb2fbdb4069cd76308c",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Materials/Materials.usd"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link5.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/368bc85072df26fe94f68aa7f643608f98edc079a0638bd6cee1dd6bf6016d75.usd",
+    "source_sha256": "4b67be8b886c6705455b389ce6be7d710c75187397a8607381f1515c7b1e626c",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Materials/Materials.usd"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link4.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/9d55c03d6ca31e130f17072643817a8691b948d9f06340f19c50101c247c868e.usd",
+    "source_sha256": "9dc792ca5a4fc5506cec8b7be83332d121727c0f32e3b133ad5a8478ab6a10e0",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Materials/Materials.usd"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link3.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/49275204d8b4f6936df4fb8178fbc20a2d353f07820489a359c4debe1c698e9c.usd",
+    "source_sha256": "bf5b30913f51811cd7f772651d25ead0f48ed37d994a25c9fbccb38c8479dbf8",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Materials/Materials.usd"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link2.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/4676ee82789eb67f219539d83f1c32eb5001c2377391c4c20dfd90f62b0aada7.usd",
+    "source_sha256": "f05fd2f8ce2533f06bb6b5bf916a0e8e8b151e5d1f58e270ce5617507590b27e",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Materials/Materials.usd"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link1.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/01b4772d53610725e8c8fe77e006cdf75f5a5756326491f1046b80ab17b184ea.usd",
+    "source_sha256": "9f3f8b7d980865d2023ead815fd2faed9727af533959077b5700e28f6242187b",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Materials/Materials.usd"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link0.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/db91673b4f992f3c898c4a26baaaa125610c8961b1155d7f44104fef8fc452b8.usd",
+    "source_sha256": "4b46e614cf37f745ef5f8212137ac6af06aaef34b3858ae02f2f67d2f2c988a7",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Materials/Materials.usd"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/panda_instanceable.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/4a034e99252db64807deac05624d704ece0c0a13179352205025c55129eebbfa.usd",
+    "source_sha256": "7f5a0c0aa6760cfbd348e08bc464d4b94341f027f51c2d9e42406ceefcc7787f",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/instanceable_collision_meshes.usd",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_rightfinger.usd",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_leftfinger.usd",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_hand.usd",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link7.usd",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link6.usd",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link5.usd",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link4.usd",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link3.usd",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link2.usd",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link1.usd",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/IsaacLab/Robots/FrankaEmika/Legacy/Props/panda_link0.usd"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/UIElements/frame_prim.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/f23f6142aa94e9b6dd8d5d9d93be3c30256957ed35d3f48d07381d27cb911252.usd",
+    "source_sha256": "d1299a3164458df37f636eefa5963f2ba60dcbf435cac69f61c6a4af39e0449b",
+    "dependencies": []
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Blocks/DexCube/Materials/dex_cube_mod.png",
+    "local": "/workspace/step4/local_scene_assets_v1/c90a7aa8bfe0221212a981aaf2824229eecefdfa4c32617a2951a280b974e89e.png",
+    "source_sha256": "369aed3259b4b8fae55f84afdb575dd660b176b7f4bcdce8d9fe3672872aa29a",
+    "dependencies": []
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Blocks/DexCube/Props/instanceable_meshes.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/a431b6857ff3cb8c6661b91f2039717faca5a0dfd540f04f8f86222a9b6ce9b5.usd",
+    "source_sha256": "76413b673a2206ccd7b4796eb2ef6269cf977764068a2d4fd8131a91dcd3a723",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Blocks/DexCube/Materials/dex_cube_mod.png"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Blocks/DexCube/dex_cube_instanceable.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/98c10377768b1c8fa57602fbaf4b102a773bb2ea245f9676e3f134274cb668a9.usd",
+    "source_sha256": "7a5c015690652f4ca1d62ed757d494c51f052067bd037372c8fd581bc92d437b",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Blocks/DexCube/Props/instanceable_meshes.usd"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableBase_Normal.png",
+    "local": "/workspace/step4/local_scene_assets_v1/9bcbf0acfa1dd1ab34f522494632539c375bbc1ed50289313e2c3965f9949b0c.png",
+    "source_sha256": "bfcbadb3f98c9fe116bc6eb2c040d09196c40ca16347367900f8fd2d3451e10d",
+    "dependencies": []
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableBase_BaseColor.png",
+    "local": "/workspace/step4/local_scene_assets_v1/18bfba749061b62e8d2e20bdb4e83e05c8a89e509f80c48815501eb466445059.png",
+    "source_sha256": "2cf139f46874df8a133c26eb51405161824ddecb0ce6a094e6477a675656bfe4",
+    "dependencies": []
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableBase_Metallic.png",
+    "local": "/workspace/step4/local_scene_assets_v1/b77caafa91dedddcd9fa069f90b851ab15e562b4719441a36d9a64570a46ac91.png",
+    "source_sha256": "c56bdeeecef908a1a6869af71556ad9c43794d0d292e3b8463aa7b82f3367771",
+    "dependencies": []
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableBase_Roughness.png",
+    "local": "/workspace/step4/local_scene_assets_v1/e136d98cbd19ebf4b358b39946ac00415e43b75ad78cc60b799ceb06e2ded3d5.png",
+    "source_sha256": "35426471bf910ae4ef32d044b360489de8477c97cf1a75ad25341ef2a25a644b",
+    "dependencies": []
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableParts_Normal.png",
+    "local": "/workspace/step4/local_scene_assets_v1/d9556249622215ad1d0bb2d73f1b376f9f45f440685db4dd4cad67184a3e645a.png",
+    "source_sha256": "9413615d7cf9809f639ec9722022c164ad73a14add32a94293fc7c69d97b601c",
+    "dependencies": []
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableParts_BaseColor.png",
+    "local": "/workspace/step4/local_scene_assets_v1/8125832169f49b438283d8677f74854ca95510969140e68a2215b8cd74b431ec.png",
+    "source_sha256": "5d095ed2e4fe2fa18d35a2677f3c281796fba135544439db8ec32d851144fbc0",
+    "dependencies": []
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableParts_Metallic.png",
+    "local": "/workspace/step4/local_scene_assets_v1/55703e7dac07c5ac391f420f5d197d42cdd54ef31b2294f9645d410219f6832b.png",
+    "source_sha256": "fdcd7dcec52034b60662cccf58c02ae442c0a87d60b099fcf6cd9ccd6cf5535d",
+    "dependencies": []
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableParts_Roughness.png",
+    "local": "/workspace/step4/local_scene_assets_v1/1a36c05e15eaa65cb58c5a4ba0031f189ad72eecc016a06dd6df0d61c58b5b3f.png",
+    "source_sha256": "1cb2096ba97d3519f876b9d0dc84822bdd428cf93f0887a8f75e3bba208c4a35",
+    "dependencies": []
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/table.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/64110963b5d2e982ea986f8d4205d4534e1d2325f3085dc0d2cacc7f574a33b9.usd",
+    "source_sha256": "8e6e2284e0eba868341b5afacf663d4f84005febef4f9c178d916e609d44c114",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableBase_Normal.png",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableBase_BaseColor.png",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableBase_Metallic.png",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableBase_Roughness.png",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableParts_Normal.png",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableParts_BaseColor.png",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableParts_Metallic.png",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/Materials/Textures/DemoTable_TableParts_Roughness.png"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/table_instanceable.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/87aa9a6619c15669b9580a9eeeb0477666bcabc47536741ab2fee95b4752b7bd.usd",
+    "source_sha256": "479ed8fd374d8eafdedf3ca3b9d0d5981ffc6d5c5016929347f748be93d5df17",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Props/Mounts/SeattleLabTable/table.usd"
+    ]
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Environments/Grid/Materials/Textures/WireframeBlur_blue.png",
+    "local": "/workspace/step4/local_scene_assets_v1/3f59357079132e950c558b7558c1ce3c742ff8bcc9030f867499b2ac89307764.png",
+    "source_sha256": "44fc0e82007bb0bd94631cd7ec45986a71ed74b9413899fbffac13efe151be4b",
+    "dependencies": []
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Environments/Grid/Materials/Textures/Wireframe_blue.png",
+    "local": "/workspace/step4/local_scene_assets_v1/b3537ed97848d4b10eb796cab4e29a661b07e911fcabe230cb7379dfa8b46c46.png",
+    "source_sha256": "940b96ee8c8e53bd1acbc770d4ca0ac98bed9c96439ab386d1b27dbc9790cc4e",
+    "dependencies": []
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Environments/Grid/Materials/Textures/WireframeBlur_basecolor.png",
+    "local": "/workspace/step4/local_scene_assets_v1/9a3141758e7fe0c8bc570f7a98ffae2894bb6e12f5cf515724d64555c2ecee66.png",
+    "source_sha256": "deab39088eaf39ed7be951966c5e6bd5e58b90ab64743b0cdc8e5579fd5a99d9",
+    "dependencies": []
+  },
+  {
+    "url": "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Environments/Grid/default_environment.usd",
+    "local": "/workspace/step4/local_scene_assets_v1/c3d8fe44ac2873746dd972b6971772fb7879892dd0662e266d01a2d14b7fd264.usd",
+    "source_sha256": "086584c39cb37fe460f20e6e1de64f3dcdd4115b28acbf60250bc8665d0d4147",
+    "dependencies": [
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Environments/Grid/Materials/Textures/WireframeBlur_blue.png",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Environments/Grid/Materials/Textures/Wireframe_blue.png",
+      "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Environments/Grid/Materials/Textures/WireframeBlur_basecolor.png"
+    ]
+  }
+]

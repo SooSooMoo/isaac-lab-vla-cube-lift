@@ -1,47 +1,47 @@
-# 検証記録
+# 評価記録
 
-[English](README_ENG.md)
+同じモデルでの保存済み評価。開発地点と追加地点を分けて集計します。
 
-同一モデルで26地点＋新規5地点＋補完4地点、35種類の位置が全合格。各地点1試行の集計で、領域全体や統計的成功率100%の保証ではありません。録画3試行は別で、新しい3地点として加算しません。
+| Set | X mm | Y mm | Pass | Maximum hold XY mm |
+|---|---:|---:|---|---:|
+| development29 | 0 | 10 | True | 9.08 |
+| development29 | -7 | 12 | True | 5.66 |
+| development29 | -7 | -12 | True | 15.14 |
+| development29 | -30 | 30 | True | 16.17 |
+| development29 | 0 | -30 | True | 10.19 |
+| development29 | 0 | 30 | True | 9.17 |
+| development29 | -30 | 0 | True | 11.90 |
+| development29 | 30 | 0 | True | 16.44 |
+| development29 | -30 | -30 | True | 12.98 |
+| development29 | 30 | -30 | True | 7.43 |
+| development29 | 30 | 30 | True | 19.71 |
+| development29 | 0 | 0 | True | 10.82 |
+| development29 | 10 | 0 | True | 13.18 |
+| development29 | -10 | 0 | True | 15.89 |
+| development29 | 0 | -10 | True | 9.76 |
+| development29 | -20 | 0 | True | 8.64 |
+| development29 | 20 | 0 | True | 14.63 |
+| development29 | 0 | -20 | True | 20.17 |
+| development29 | 0 | 20 | True | 19.11 |
+| development29 | -20 | -20 | True | 14.93 |
+| development29 | -20 | 20 | True | 7.78 |
+| development29 | 20 | -20 | True | 13.68 |
+| development29 | 20 | 20 | True | 10.57 |
+| development29 | 7 | 12 | True | 10.25 |
+| development29 | 7 | -12 | True | 11.32 |
+| development29 | 16 | 6 | True | 7.68 |
+| development29 | -16 | 6 | True | 11.66 |
+| development29 | -16 | -6 | True | 11.56 |
+| development29 | 16 | -6 | True | 19.81 |
+| new8 | 11 | 23 | True | 12.60 |
+| new8 | -11 | 23 | True | 6.14 |
+| new8 | -11 | -23 | True | 17.71 |
+| new8 | 11 | -23 | False | - |
+| new8 | 24 | 9 | True | 13.01 |
+| new8 | -24 | 9 | True | 8.35 |
+| new8 | -24 | -9 | True | 8.15 |
+| new8 | 24 | -9 | True | 11.81 |
 
-[26地点JSON](validation26/results.json) · [新規5地点](random5/results.json) · [補完4地点](positive4/results.json) · [CSV](positions35.csv)
+[JSON](evaluation_results.json)
 
-| Group | X (mm) | Y (mm) | Pick / hold | Min height (mm) | Max XY (mm) |
-|---|---:|---:|---|---:|---:|
-| validation26 | 0 | 0 | PASS / PASS | 128.36 | 7.19 |
-| validation26 | 10 | 0 | PASS / PASS | 128.46 | 6.74 |
-| validation26 | -10 | 0 | PASS / PASS | 128.10 | 7.12 |
-| validation26 | 0 | -10 | PASS / PASS | 128.46 | 6.86 |
-| validation26 | 0 | 10 | PASS / PASS | 128.12 | 5.91 |
-| validation26 | -20 | 0 | PASS / PASS | 128.12 | 7.86 |
-| validation26 | 20 | 0 | PASS / PASS | 127.92 | 6.57 |
-| validation26 | 0 | -20 | PASS / PASS | 128.55 | 7.38 |
-| validation26 | 0 | 20 | PASS / PASS | 128.31 | 6.90 |
-| validation26 | -20 | -20 | PASS / PASS | 128.36 | 9.28 |
-| validation26 | -20 | 20 | PASS / PASS | 128.71 | 7.01 |
-| validation26 | 20 | -20 | PASS / PASS | 128.11 | 7.56 |
-| validation26 | 20 | 20 | PASS / PASS | 128.10 | 8.33 |
-| validation26 | -8.927 | -8.147 | PASS / PASS | 128.27 | 6.91 |
-| validation26 | -13.82 | 2.136 | PASS / PASS | 128.72 | 7.34 |
-| validation26 | -19.123 | -15.53 | PASS / PASS | 128.83 | 8.96 |
-| validation26 | -8.512 | -8.622 | PASS / PASS | 128.15 | 6.69 |
-| validation26 | 15.344 | 5.632 | PASS / PASS | 127.94 | 6.95 |
-| validation26 | -30 | 0 | PASS / PASS | 128.85 | 9.33 |
-| validation26 | 30 | 0 | PASS / PASS | 128.16 | 7.35 |
-| validation26 | 0 | -30 | PASS / PASS | 128.44 | 7.99 |
-| validation26 | 0 | 30 | PASS / PASS | 128.32 | 7.44 |
-| validation26 | -30 | -30 | PASS / PASS | 128.48 | 10.45 |
-| validation26 | -30 | 30 | PASS / PASS | 128.82 | 9.82 |
-| validation26 | 30 | -30 | PASS / PASS | 128.30 | 7.08 |
-| validation26 | 30 | 30 | PASS / PASS | 128.14 | 10.25 |
-| random5 | -2.12 | 15.26 | PASS / PASS | 128.41 | 6.46 |
-| random5 | -21.914 | -6.215 | PASS / PASS | 128.60 | 7.78 |
-| random5 | -24.981 | -19.628 | PASS / PASS | 128.44 | 9.75 |
-| random5 | -4.286 | 24.037 | PASS / PASS | 128.62 | 6.95 |
-| random5 | -18.254 | 4.408 | PASS / PASS | 128.55 | 8.07 |
-| positive4 | 14.972 | -23.836 | PASS / PASS | 128.31 | 8.01 |
-| positive4 | 12.324 | 0.347 | PASS / PASS | 128.30 | 6.61 |
-| positive4 | 18.082 | -2.793 | PASS / PASS | 128.24 | 6.79 |
-| positive4 | 15.143 | 19.982 | PASS / PASS | 127.87 | 7.65 |
-
-高さは環境座標、XY変位は静定Cube位置を基準とします。合格にはpick・3秒維持・有限値・関節余裕の確認が含まれます。接触力の検証や35地点全体の完全軌道再現は主張しません。
+モデルSHA256 / Model SHA256: `2cac0faa70e70ca69ad13553ef816aa8f2410213bc73f839cc9d0e3b441dace9`

@@ -1,10 +1,9 @@
-# Current model
+# Model
 
-[日本語](README_JPN.md)
+**Model weights are not published.** This repository provides implementation, evaluation evidence, and videos. Inference requires a separate checkpoint and cannot run from the public files alone.
 
-## File and size
-[`cube_position_estimator.pt`](cube_position_estimator.pt) is 9,455,338 bytes (~9.46 MB, 9.02 MiB). This single inference checkpoint includes the image encoder, position head and normalization values. Staged control resides in Python.
+The evaluated checkpoint is 49,396,299 bytes (approximately 47.1 MiB), including parent-model weights and the GRU action decoder. The original remains on RunPod.
 
-SHA-256: `9a5004fe9ad27b4266b08002842cd5d48eac57235d3d57f8405bbc38feec719f`
+This directory publishes metadata and three Python modules; `candidate.pt` is not included. If the checkpoint is obtained separately, place it here. The modules are hash-checked by the loader and should remain unchanged.
 
-See [source identity](manifest.json). Selected epoch: 62; format: spatial_cube_estimator_v1. Unlike the prior four-artifact stack, only one learned inference checkpoint is needed. The initial state and custom simulator environment remain separate dependencies.
+[Manifest](manifest.json)
