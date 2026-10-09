@@ -1,4 +1,4 @@
-# Isaac Lab: Grasping and Lifting a Cube with Language Instructions and Vision
+# Grasp and lift a cube at an arbitrary location using verbal instructions and images.
 
 ![Cube lift and hold in four quadrants](result/evidence/images/four_quadrants.png)
 
