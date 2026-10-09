@@ -11,7 +11,7 @@ Frames from the reviewed recordings during lift and hold in four quadrants. Each
 
 This simulated VLA policy takes table-camera and wrist-camera images, robot state, and a language instruction. A learned model outputs arm and gripper actions.
 
-**Model weights are not published.** This repository provides implementation, evaluation evidence, and videos. Inference requires a separate checkpoint and cannot run from the public files alone.
+Model weights are not published. This repository provides implementation, evaluation evidence, and videos. Inference requires a separate checkpoint and cannot run from the public files alone.
 
 ## Videos
 
