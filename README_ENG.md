@@ -1,12 +1,17 @@
-# Isaac Lab: Grasping and Lifting a Cube with Language and Vision
+# Isaac Lab: Grasping and Lifting a Cube with Language Instructions and Vision
 
-**Model weights are not published.** This repository provides implementation, evaluation evidence, and videos. Inference requires a separate checkpoint and cannot run from the public files alone.
+![Cube lift and hold in four quadrants](result/evidence/images/four_quadrants.png)
+
+Frames from the reviewed recordings during lift and hold in four quadrants. Each panel shows the table camera on the left and wrist camera on the right.
+
 
 [日本語](README_JPN.md)
 
 **Given “pick up the cube” and camera images, Franka grasps a cube, lifts it, and holds it for three seconds.**
 
 This simulated VLA policy takes table-camera and wrist-camera images, robot state, and a language instruction. A learned model outputs arm and gripper actions.
+
+**Model weights are not published.** This repository provides implementation, evaluation evidence, and videos. Inference requires a separate checkpoint and cannot run from the public files alone.
 
 ## Videos
 
@@ -38,7 +43,7 @@ At `(11, −23) mm`, approach misalignment led to a failed lift. The failure is 
 
 No teacher overrides actions during these evaluations. Ground-truth cube coordinates are used for scoring and teacher collection, not as policy inputs.
 
-Training and evaluation use a single instruction. **Behavioral changes in response to different instruction meanings have not been verified.**
+Training and evaluation use a single instruction. Behavioral changes in response to different instruction meanings have not been verified.
 
 ## Documentation
 
@@ -53,3 +58,9 @@ Training and evaluation use a single instruction. **Behavioral changes in respon
 Results use fixed initial states, cameras, and a simulation environment. Real hardware, changed lighting or object shapes, and general success probabilities are untested. Grasping is assessed through lift and hold behavior, not contact-force validation.
 
 The earlier visual-position-estimator plus staged-controller result at 35 positions is not a result of this VLA model.
+
+## Future work
+
+The goal is complete success: one model achieving pick and three-second hold at every designated evaluation position. The challenge is to correct failures while preserving performance at positions that already succeed.
+
+Repeated trials and evaluations at new positions will assess reliability and help expand the range of stable operation. Success at every tested position will not, by itself, be treated as a guarantee at every position in the region.
