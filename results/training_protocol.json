@@ -1,0 +1,38 @@
+{
+  "format": "color_temporal_action_v1",
+  "parent_sha256": "2cac0faa70e70ca69ad13553ef816aa8f2410213bc73f839cc9d0e3b441dace9",
+  "warm_start_sha256": "87a7b8759e3e61e41bdb6863d166adf2479b377b613cc64b98e51bc573213259",
+  "manifest": "/workspace/step5/color_replay_recovery_audit_0d2ki9am/training_manifest.json",
+  "manifest_sha256": "7cfdf08a2163ffa6054a6cbff9f76d625a2ba6df4728ada884914e4a15c00ab1",
+  "train_episodes": 46,
+  "validation_episodes": 4,
+  "validation_offset_mm": [
+    0,
+    10
+  ],
+  "train_samples": 40301,
+  "validation_samples": 3534,
+  "epochs": 300,
+  "patience": 40,
+  "sequence_window": 128,
+  "recurrent_reset": "episode start; hidden detached between training chunks",
+  "learner_inputs": [
+    "table_cam",
+    "wrist_cam",
+    "eef_pos",
+    "eef_quat",
+    "gripper_pos",
+    "language_tokens"
+  ],
+  "uses_progress_input": false,
+  "uses_object_pose_input": false,
+  "vision_frozen": true,
+  "pretrained_initialization": true,
+  "visual_review": "assistant reviewed original, recovery and diagonal and all five range20 comparison images and the additional x20_y-20 red comparison image; color/target correspondence passed; replay recovery comparison also reviewed",
+  "checkpoint_policy": "best validation loss among trained epochs; physical recovery requires rollout evaluation",
+  "learning_rate": 1e-05,
+  "recovery_context_steps": 500,
+  "context_loss": false,
+  "context_gradients": false,
+  "limitations": "Offline validation does not establish color selection, pick, or 3-second hold in closed-loop simulation."
+}

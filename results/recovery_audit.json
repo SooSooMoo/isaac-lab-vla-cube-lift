@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "total_episodes": 50,
+  "recovery_teacher_samples": 565,
+  "context_samples": 500,
+  "context_errors": {
+    "eef_pos": 9.08970832824707e-07,
+    "eef_quat": 1.199195253320795e-06,
+    "gripper_pos": 7.450580596923828e-09,
+    "handoff_eef_m": 2.9909378440606815e-07
+  },
+  "manifest": "/workspace/step5/color_replay_recovery_audit_0d2ki9am/training_manifest.json",
+  "comparison": "/workspace/step5/color_replay_recovery_audit_0d2ki9am/recovery_comparison.png",
+  "training_performed": false,
+  "visual_review": "pending recovery image",
+  "error": null
+}

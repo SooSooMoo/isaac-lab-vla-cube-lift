@@ -1,0 +1,59 @@
+{
+  "completed": true,
+  "training_performed": true,
+  "best_epoch": 2,
+  "epochs_run": 50,
+  "train_episodes": 46,
+  "validation_episodes": 4,
+  "checkpoint": "/workspace/step5/color_train_replay_recovery_8gdph00k/best.pt",
+  "checkpoint_sha256": "20b61d3e9167321aeb5f72e1fd9fecf32f7afd080d5510fa4f6b5fd7e37d3d11",
+  "best_validation": {
+    "loss": 0.002493040779718316,
+    "gripper_accuracy": 0.9988681380871534,
+    "arm_rmse": [
+      0.0001277515257243067,
+      0.00020271904941182584,
+      0.0008680489263497293,
+      0.00019821614841930568,
+      0.0005999408895149827,
+      0.00045513309305533767
+    ],
+    "translation_rmse_mm": [
+      0.06387576286215335,
+      0.10135952470591292,
+      0.43402446317486465
+    ],
+    "rotation_rmse_deg": [
+      0.0056784743678824695,
+      0.017187040463266464,
+      0.013038602674402903
+    ]
+  },
+  "initial_validation": {
+    "loss": 0.0022928591864814375,
+    "gripper_accuracy": 0.9991511035653651,
+    "arm_rmse": [
+      0.0001432446006219834,
+      0.00023889527074061334,
+      0.0007576250936836004,
+      0.0002036399528151378,
+      0.0007742472807876766,
+      0.00047825559158809483
+    ],
+    "translation_rmse_mm": [
+      0.0716223003109917,
+      0.11944763537030667,
+      0.3788125468418002
+    ],
+    "rotation_rmse_deg": [
+      0.005833854918275312,
+      0.022180550744307127,
+      0.013701013463265115
+    ]
+  },
+  "elapsed_minutes": 4.95,
+  "vision_frozen": true,
+  "uses_progress_input": false,
+  "uses_object_pose_input": false,
+  "closed_loop_evaluation_performed": false
+}

@@ -1,0 +1,122 @@
+{
+  "README.md": {
+    "bytes": 4685,
+    "sha256": "a0c6e402c6b0a8585a4c80abf43274e454cee999f74525734f079ea0e5e116db"
+  },
+  "code/audit_step5_color_replay_recovery_v1.py": {
+    "bytes": 14650,
+    "sha256": "a2b5249d90afd555146328bca99597f944499211f90061c3d0704c4c7ed1670f"
+  },
+  "code/collect_step5_color_replay_recovery_red1_v1.py": {
+    "bytes": 29652,
+    "sha256": "d57e1dcb2c84b4e7ecbdef8a98a305f76196ab11a05bad1a6e25d2b15df62b50"
+  },
+  "code/evaluate_step5_color_replay_recovery32_v1.py": {
+    "bytes": 28125,
+    "sha256": "336e58201fa86380c8417586d17e33ecc676dc6a40b19197218da22c047d9488"
+  },
+  "code/record_step5_color_portfolio8_v1.py": {
+    "bytes": 30942,
+    "sha256": "3549deca267cd9361964b5bfcab21b2b15002f2a898955e271aeabacd66d935b"
+  },
+  "code/train_step5_color_replay_recovery_v1.py": {
+    "bytes": 29310,
+    "sha256": "e6b5049d16d5a80af78cbda6f1a5bdf8d5398a8aba0b01bfb93aa5cbbea422aa"
+  },
+  "model/best.pt.part000": {
+    "bytes": 8388608,
+    "sha256": "b7946643c3cd874ac8d9a5242775863f10fdc83ee40e2cf3d31f755a5219882a"
+  },
+  "model/best.pt.part001": {
+    "bytes": 8388608,
+    "sha256": "4853b2b41dca62db73b1edf03f429c19132f5134342191975fd1ef8b8a274193"
+  },
+  "model/best.pt.part002": {
+    "bytes": 8388608,
+    "sha256": "6a084bae71be3862bba09f82ed122bf9cc5da06671858820591f6638e17567be"
+  },
+  "model/best.pt.part003": {
+    "bytes": 8388608,
+    "sha256": "cc3c088019fb22ff593dffdaaee5dc7ec7b14defacd9027e0b15a9e83100f5a5"
+  },
+  "model/best.pt.part004": {
+    "bytes": 8388608,
+    "sha256": "7c952b69e6f0e538afd6fed1a59caa15c023ffd8006338bdc576764558a75791"
+  },
+  "model/best.pt.part005": {
+    "bytes": 7453957,
+    "sha256": "61941124735a04e924dba4b07396ba6fd03c231a7fb5056705084a106392ca40"
+  },
+  "model/checkpoint_parts.json": {
+    "bytes": 1017,
+    "sha256": "2d6b4bf183cb25d46ebba6b9bcfdbae1579adb2dda87a69cd08b1dd302be7dcd"
+  },
+  "model/color_model.py": {
+    "bytes": 4309,
+    "sha256": "283e7a40c85f0864b176eef2d34e4541d7c0bd12271b48dd86b16405836e161a"
+  },
+  "model/color_temporal.py": {
+    "bytes": 929,
+    "sha256": "882a63812e1f5799e62d377b096df4a2f7928ce0f05365f2852c406aa90df6d6"
+  },
+  "model/restore_checkpoint.py": {
+    "bytes": 782,
+    "sha256": "37204a51913bde19fabc80748fcc472da3f02725c4d03abd8486f24978d4c377"
+  },
+  "results/range20_results.json": {
+    "bytes": 25999,
+    "sha256": "cbea05edf245642e8490f10e8a45e96ef347ed209d0bd72f52ecff2b163b2d71"
+  },
+  "results/range20_summary.json": {
+    "bytes": 2011,
+    "sha256": "85fe46eae243cff418dcc1e9f690f2799170e628a8861b7cf88bbcef3e1d1f52"
+  },
+  "results/recovery_audit.json": {
+    "bytes": 578,
+    "sha256": "e61bbcf6fad3157d589b716fd382663707886d12255ef33140fa1e3def7d5a06"
+  },
+  "results/training_protocol.json": {
+    "bytes": 1553,
+    "sha256": "1dc60261feebb021daa42da38c05d33b5bf880d818a5d606bc751018932c2d1c"
+  },
+  "results/training_summary.json": {
+    "bytes": 1560,
+    "sha256": "40c87d4499f35c481bbb848ce5ef0d79ebb1c27da5e6741de107eb8b8a2187db"
+  },
+  "results/video_results.json": {
+    "bytes": 6404,
+    "sha256": "31620a6d90a4e80d46b98b90cf82635ce424c93304aea42b07e65140d415b38c"
+  },
+  "videos/q1_blue.mp4": {
+    "bytes": 1303126,
+    "sha256": "3a197687d8a2ad324e3d8bc2cf59efb0cbfba9e051819d4a092456960ba06ac3"
+  },
+  "videos/q1_red.mp4": {
+    "bytes": 1312716,
+    "sha256": "18c3c84f5ddaa2a807bb189d15d20404e2b83b1e2ed2bf75976178f83c68f7b6"
+  },
+  "videos/q2_blue.mp4": {
+    "bytes": 1312026,
+    "sha256": "82fc0a2236a2114235544581001bfbb1137849949ffa21ffc129208553a1dbbf"
+  },
+  "videos/q2_red.mp4": {
+    "bytes": 1264946,
+    "sha256": "41f02f7e536edfc99aff9319cc3009de2d0738765a19c7f42f51c6e40bc63dc2"
+  },
+  "videos/q3_blue.mp4": {
+    "bytes": 1319214,
+    "sha256": "964d68f53d0e70d3f33d5eec9ab79fc9e7faf6184b5be78d970ba88a7fc9dd11"
+  },
+  "videos/q3_red.mp4": {
+    "bytes": 1249307,
+    "sha256": "169eb863865010bcb9516e6e6b658ac03f8f96f06e8dd59c720ba48e832b6920"
+  },
+  "videos/q4_blue.mp4": {
+    "bytes": 1300536,
+    "sha256": "332970843ed8f54d2c9e2dcc692a293e4370aa233aacfd99225a734d89faf2c2"
+  },
+  "videos/q4_red.mp4": {
+    "bytes": 1366985,
+    "sha256": "df57cbd10f25ffa8b126fe6805ac173bc790db8aebe2ce52cd83c4c9b11c2995"
+  }
+}

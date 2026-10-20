@@ -1,0 +1,113 @@
+{
+  "passed": true,
+  "successful_episodes": 32,
+  "total_episodes": 32,
+  "expected_episodes": 32,
+  "offsets_mm": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ],
+    [
+      -20,
+      -20
+    ],
+    [
+      -20,
+      20
+    ],
+    [
+      20,
+      -20
+    ],
+    [
+      20,
+      20
+    ]
+  ],
+  "evaluation_role": "range20_recovery_and_regression",
+  "results": "/workspace/step5/color_policy_replay_recovery32_mraw92t9/results.json",
+  "checkpoint": "/workspace/step5/color_train_replay_recovery_8gdph00k/best.pt",
+  "learned_policy": true,
+  "runtime_action_override": false,
+  "training_performed": false,
+  "limitations": "Thirty-two recovery/regression trials at four axis and four diagonal offsets of 20 mm; includes conditions used for training and recovery; this is not an independent unseen-position evaluation; lift/proximity checks do not verify contact forces or establish broad generalization.",
+  "by_offset": [
+    {
+      "offset_mm": [
+        -20,
+        0
+      ],
+      "successful_episodes": 4,
+      "total_episodes": 4
+    },
+    {
+      "offset_mm": [
+        20,
+        0
+      ],
+      "successful_episodes": 4,
+      "total_episodes": 4
+    },
+    {
+      "offset_mm": [
+        0,
+        -20
+      ],
+      "successful_episodes": 4,
+      "total_episodes": 4
+    },
+    {
+      "offset_mm": [
+        0,
+        20
+      ],
+      "successful_episodes": 4,
+      "total_episodes": 4
+    },
+    {
+      "offset_mm": [
+        -20,
+        -20
+      ],
+      "successful_episodes": 4,
+      "total_episodes": 4
+    },
+    {
+      "offset_mm": [
+        -20,
+        20
+      ],
+      "successful_episodes": 4,
+      "total_episodes": 4
+    },
+    {
+      "offset_mm": [
+        20,
+        -20
+      ],
+      "successful_episodes": 4,
+      "total_episodes": 4
+    },
+    {
+      "offset_mm": [
+        20,
+        20
+      ],
+      "successful_episodes": 4,
+      "total_episodes": 4
+    }
+  ]
+}
