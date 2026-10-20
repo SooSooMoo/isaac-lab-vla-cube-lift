@@ -1,6 +1,6 @@
 # Language-Conditioned Cube Picking with Isaac Lab
 
-**同じモデルで「blue cube の把持」と「red cube の把持」**
+**同じモデルで「red cube の把持」と「blue cube の把持」**
 <table>
   <tr>
     <td align="center">
