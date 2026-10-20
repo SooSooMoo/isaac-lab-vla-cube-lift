@@ -4,17 +4,15 @@
 <table>
   <tr>
     <td align="center">
-      <img src="videos/images/blue_cube.png" width="100%">
-      <br><b> above </b>
+      <img src="videos/images/red_cube.png" width="100%">
+      <br><b> pick up the red cube </b>
     </td>
     <td align="center">
-      <img src="videos/images/red_cube.png" width="100%">
-      <br><b> pick </b>
+      <img src="videos/images/blue_cube.png" width="100%">
+      <br><b> pick up the blue cube </b>
     </td>
   </tr>
 </table>
-
-videos/images/blue_cube.png
 
 **赤・青のCubeを言語指示で選び、把持して3秒間保持するVLAデモ。**
 
