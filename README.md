@@ -1,5 +1,19 @@
 # Language-Conditioned Cube Picking with Isaac Lab
 
+**同じモデルで「blue cube の把持」と「red cube の把持」**
+<table>
+  <tr>
+    <td align="center">
+      <img src="videos/images/blue_cube.png" width="100%">
+      <br><b> above </b>
+    </td>
+    <td align="center">
+      <img src="videos/images/red_cube.png" width="100%">
+      <br><b> pick </b>
+    </td>
+  </tr>
+</table>
+
 videos/images/blue_cube.png
 
 **赤・青のCubeを言語指示で選び、把持して3秒間保持するVLAデモ。**
