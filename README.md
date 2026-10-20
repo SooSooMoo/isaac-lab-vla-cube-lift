@@ -1,5 +1,7 @@
 # Language-Conditioned Cube Picking with Isaac Lab
 
+![Cubeの持ち上げ・保持](videos/images/blue_cube.png)
+
 **赤・青のCubeを言語指示で選び、把持して3秒間保持するVLAデモ。**
 
 `pick up the red cube` / `pick up the blue cube`
