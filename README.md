@@ -34,8 +34,6 @@
 
 ## VLA
 
-### VLAとは
-
 **VLA（Vision–Language–Action）は、画像から得た情報（Vision）と、言語による指示（Language）を組み合わせて、ロボットの動作（Action）を生成するモデルです。**
 
 このプロジェクトでは、同じ場面に赤・青のCubeがある状態で、`pick up the red cube` または `pick up the blue cube` を入力します。ロボットはカメラ画像と自身の状態を観測し、指定されたCubeへ接近して把持・持ち上げを行います。
