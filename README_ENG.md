@@ -145,3 +145,12 @@ python result/models/restore_checkpoint.py
 ```
 
 The utility verifies part and complete-checkpoint SHA256 hashes and restores `result/models/best.pt`.
+
+## Summary and Future Challenges
+
+### Achievements
+We developed a Vision-Language-Action (VLA) model capable of selecting a red or blue cube based on a natural language instruction, grasping it, and holding it for three seconds. The model succeeded across 32 experimental conditions—encompassing various cube positions (along axes and diagonals, with a ±20 mm variance), color configurations, and specific instructions—and we have released eight demonstration videos covering four quadrants and two types of instructions. Furthermore, we improved the model’s performance through additional training that incorporated observation histories from failed attempts alongside corrective actions provided by a human supervisor.
+
+### Remaining Challenges
+Outstanding tasks include ensuring stability for previously unseen positions and across repeated trials, extending the operational range to ±30 mm, implementing grasp evaluation based on contact force, and conducting validation on physical hardware. Additionally, establishing full reproducibility—including the training data and execution environment—remains a challenge.
+As we are shifting our focus to a different project, there are currently no plans to address these remaining issues.
