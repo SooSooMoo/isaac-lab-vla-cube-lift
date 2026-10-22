@@ -1,7 +1,7 @@
 {
   "README.md": {
-    "bytes": 8244,
-    "sha256": "145b17603e70539fe9c58a8d73fd19e18ff18b229e3e451eb502703f993f1595"
+    "bytes": 9027,
+    "sha256": "58a7b6f06af40a8cd38959bcf8b8e42a5161a4c5250ccec44e2164626b1c4ae5"
   },
   "code/audit_step5_color_replay_recovery_v1.py": {
     "bytes": 14650,

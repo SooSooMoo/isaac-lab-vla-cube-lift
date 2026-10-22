@@ -117,6 +117,14 @@ flowchart LR
 
 チェックポイントSHA256：`20b61d3e9167321aeb5f72e1fd9fecf32f7afd080d5510fa4f6b5fd7e37d3d11`
 
+### Simulation platform
+
+本プロジェクトは、NVIDIA Omniverseを基盤とするロボットシミュレーター **NVIDIA Isaac Sim** と、その上で動作するロボット学習フレームワーク **NVIDIA Isaac Lab** を使用しています。仮想環境でロボット・Cubeの物理挙動とカメラ画像を生成し、教師データの収集および学習済みVLAモデルの閉ループ評価を行いました。VLAモデルの模倣学習には **PyTorch** を使用しています。
+
+技術の関係：**NVIDIA Omniverse → NVIDIA Isaac Sim → NVIDIA Isaac Lab → 本プロジェクトのシミュレーション環境**。
+
+公式資料：[NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim/) ／ [NVIDIA Isaac Lab](https://developer.nvidia.com/isaac/lab)
+
 ## モデルの復元
 
 GitHub APIの送信サイズ制限に対応するため、採用モデルは8 MiB以下の分割ファイルとして保存しています。ダウンロード・展開後、以下を実行すると各部分と全体のSHA256を検証し、`model/best.pt`を復元します。
