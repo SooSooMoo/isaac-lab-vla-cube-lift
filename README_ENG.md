@@ -1,4 +1,4 @@
-# Language-Conditioned Cube Picking with Isaac Lab
+# Isaac Lab：Identify colors based on verbal instructions and grasp the cube.
 
 [日本語](README_JPN.md) | English | [Language selection](README.md)
 
