@@ -151,3 +151,7 @@ GitHub APIの送信サイズ制限に対応するため、採用モデルは8 Mi
 ```bash
 python result/models/restore_checkpoint.py
 ```
+
+## モデルの復元
+
+Git
