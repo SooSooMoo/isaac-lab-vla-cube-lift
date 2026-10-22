@@ -11,3 +11,7 @@ This directory preserves projects from before the update.
 - **October 5, 2026 (archived): isaac-lab-vla-cube-lift_2** — This version supports two language instructions: move above the cube (above) and pick up the cube (pick). Both tasks passed numerical checks at a fixed cube position. The archived README also reports a drop during three-second post-success continuation; this archive does not claim successful three-second retention.
 
 　　See the [second version’s English README](isaac-lab-vla-cube-lift_2/README_ENG.md) for descriptions and results.
+
+- **October 21, 2026 (Archive): isaac-lab-vla-cube-lift_3** — This version supports grasping a cube at any arbitrary position. The included README describes a version that successfully maintains the grasp for 3 seconds after the object has been picked up.
+
+  See the [Japanese README for the 3rd version](isaac-lab-vla-cube-lift_3/README_JPN.md).
