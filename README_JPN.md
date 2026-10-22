@@ -1,6 +1,6 @@
 [English](README_ENG.md) | [言語選択 / Language selection](README.md)
 
-# Language-Conditioned Cube Picking with Isaac Lab
+# Isaac Labを用いた言語指示によるCube把持
 
 <table>
   <tr>
@@ -21,7 +21,7 @@
 
 テーブルカメラ・手首カメラの画像、ロボット状態、言語指示を入力し、学習したモデルが逐次動作を出力します。評価時に教師制御への切替や動作上書きは行っていません。
 
-## Demo videos
+## デモ動画
 
 各動画はテーブルカメラ（左）と手首カメラ（右）を表示します。下部の英文がその試行の指示です。4象限は基準配置からのXYオフセットで、単位はmmです。
 
@@ -77,7 +77,7 @@ flowchart LR
 
 実装：[画像・言語・状態の特徴統合](result/models/color_model.py) ／ [時間方向の動作デコーダ](result/models/color_temporal.py)
 
-## Evaluation
+## 評価結果
 
 **±20 mmの軸方向4位置・対角方向4位置 × 色配置2通り × 指示2通り = 32/32成功。** 動画収録でも8/8成功しました。
 
@@ -88,7 +88,7 @@ flowchart LR
 
 結果は [32条件の記録](result/evidence/range20_results.json) と [動画収録結果](result/evidence/video_results.json) に保存しています。
 
-## Method and recovery
+## 学習方法と失敗からの改善
 
 画像特徴抽出器を固定し、言語・ロボット状態と統合するモデルおよび再帰型動作デコーダを学習しました。モデル入力にCubeのシミュレータ座標や進行段階は含めません。教師データ生成と評価判定にはシミュレータ情報を使用します。
 
@@ -96,7 +96,7 @@ flowchart LR
 
 最終学習は46エピソード、検証は4エピソードです。採用モデルは検証損失だけでなく、シミュレーションで32条件のpick・保持成功を確認しています。
 
-## Scope and limitations
+## 適用範囲と制約
 
 - 32試行は選定した固定条件の結果です。±20 mm内のあらゆる連続位置や、繰り返し試行での成功率を保証しません。
 - 学習・修正に使用した位置を含む回帰評価です。独立した未知位置テストではありません。
@@ -104,7 +104,7 @@ flowchart LR
 - 成功判定は高さ・手先との近接・保持時間等によるもので、接触力による把持検証は行っていません。
 - シミュレーションの成果であり、実機での検証は行っていません。
 
-## Files and environment
+## ファイル構成と実行環境
 
 - `result/evidence/videos/`: テロップ付きMP4動画8本
 - `result/evidence/`: 評価・学習・監査結果
@@ -119,7 +119,7 @@ flowchart LR
 
 チェックポイントSHA256：`20b61d3e9167321aeb5f72e1fd9fecf32f7afd080d5510fa4f6b5fd7e37d3d11`
 
-### Simulation platform
+### シミュレーション基盤
 
 本プロジェクトは、NVIDIA Omniverseを基盤とするロボットシミュレーター **NVIDIA Isaac Sim** と、その上で動作するロボット学習フレームワーク **NVIDIA Isaac Lab** を使用しています。仮想環境でロボット・Cubeの物理挙動とカメラ画像を生成し、教師データの収集および学習済みVLAモデルの閉ループ評価を行いました。VLAモデルの模倣学習には **PyTorch** を使用しています。
 
@@ -127,7 +127,7 @@ flowchart LR
 
 公式資料：[NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim/) ／ [NVIDIA Isaac Lab](https://developer.nvidia.com/isaac/lab)
 
-### Directory structure
+### ディレクトリ構成
 
 ```text
 code/

@@ -1,7 +1,7 @@
 {
   "README.md": {
-    "bytes": 853,
-    "sha256": "c199721418da65fb99ac18ca77db2a7f53be7c8ef40baae28ec25d5c362654ca"
+    "bytes": 570,
+    "sha256": "f82e3ad72c2732b3a75ac00d5fcf62a060f9923c6765208b9c91b7a259f3f786"
   },
   "code/audit_step5_color_replay_recovery_v1.py": {
     "bytes": 14650,
@@ -136,8 +136,8 @@
     "sha256": "78bd6716567babe49e0c490ae23e3a940ab01131375e01a1691f979a97972247"
   },
   "README_JPN.md": {
-    "bytes": 9642,
-    "sha256": "2514fb1632141de6914aaa59c03ef6de8e93f0c2685dadc6e0975c41da894701"
+    "bytes": 9694,
+    "sha256": "7f92547596ca68dfd396a36e2a6461051c86fdb21fd3ecf4fcfb0d6070a1a218"
   },
   "README_ENG.md": {
     "bytes": 8310,
