@@ -3,11 +3,11 @@
 <table>
   <tr>
     <td align="center">
-      <img src="videos/images/red_cube.png" width="100%">
+      <img src="result/evidence/images/red_cube.png" width="100%">
       <br><b> pick up the red cube </b>
     </td>
     <td align="center">
-      <img src="videos/images/blue_cube.png" width="100%">
+      <img src="result/evidence/images/blue_cube.png" width="100%">
       <br><b> pick up the blue cube </b>
     </td>
   </tr>
@@ -25,10 +25,10 @@
 
 | 象限 | X / Y | 赤Cubeを指定 | 青Cubeを指定 |
 |---|---|---|---|
-| I | +20 / +20 | [動画](videos/q1_red.mp4) | [動画](videos/q1_blue.mp4) |
-| II | −20 / +20 | [動画](videos/q2_red.mp4) | [動画](videos/q2_blue.mp4) |
-| III | −20 / −20 | [動画](videos/q3_red.mp4) | [動画](videos/q3_blue.mp4) |
-| IV | +20 / −20 | [動画](videos/q4_red.mp4) | [動画](videos/q4_blue.mp4) |
+| I | +20 / +20 | [動画](result/evidence/videos/q1_red.mp4) | [動画](result/evidence/videos/q1_blue.mp4) |
+| II | −20 / +20 | [動画](result/evidence/videos/q2_red.mp4) | [動画](result/evidence/videos/q2_blue.mp4) |
+| III | −20 / −20 | [動画](result/evidence/videos/q3_red.mp4) | [動画](result/evidence/videos/q3_blue.mp4) |
+| IV | +20 / −20 | [動画](result/evidence/videos/q4_red.mp4) | [動画](result/evidence/videos/q4_blue.mp4) |
 
 動画8本は固定の色配置で指示を変えたデモです。別途、色の配置を入れ替えた条件も評価しています。
 
@@ -73,7 +73,7 @@ flowchart LR
 
 評価時は初期状態から学習モデル自身が動作を選び、動作後の観測を次の推論へ戻す**閉ループ制御**です。Cubeのシミュレータ座標や教師の進行段階はモデル入力に含めず、教師による動作上書きも行いません。シミュレータ上のCube位置は、教師データの生成と成功判定に使用します。
 
-実装：[画像・言語・状態の特徴統合](model/color_model.py) ／ [時間方向の動作デコーダ](model/color_temporal.py)
+実装：[画像・言語・状態の特徴統合](result/models/color_model.py) ／ [時間方向の動作デコーダ](result/models/color_temporal.py)
 
 ## Evaluation
 
@@ -84,7 +84,7 @@ flowchart LR
 - 学習モデルのみで制御し、各ステップで言語・動作推論を実行。
 - 位置オフセットは2個のCubeを一緒に平行移動する設定です。Cube間隔は120 mmです。
 
-結果は [32条件の記録](results/range20_results.json) と [動画収録結果](results/video_results.json) に保存しています。
+結果は [32条件の記録](result/evidence/range20_results.json) と [動画収録結果](result/evidence/video_results.json) に保存しています。
 
 ## Method and recovery
 
@@ -104,9 +104,9 @@ flowchart LR
 
 ## Files and environment
 
-- `videos/`: テロップ付きMP4動画8本
-- `results/`: 評価・学習・監査結果
-- `model/`: 採用チェックポイントとモデル定義
+- `result/evidence/videos/`: テロップ付きMP4動画8本
+- `result/evidence/`: 評価・学習・監査結果
+- `result/models/`: 採用チェックポイントとモデル定義
 - `code/`: 学習・評価・収録スクリプト
 - `SHA256SUMS.json`: 公開ファイルのSHA256一覧
 - `history/isaac-lab-vla-cube-lift_3/`: 前版ポートフォリオ（公開時に移動）
@@ -125,10 +125,27 @@ flowchart LR
 
 公式資料：[NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim/) ／ [NVIDIA Isaac Lab](https://developer.nvidia.com/isaac/lab)
 
+### Directory structure
+
+```text
+code/
+datasets/
+    README.md
+result/
+    evidence/
+        videos/
+        images/
+        (evaluation and training records)
+    models/
+history/
+```
+
+`datasets/README.md` にデータの内容と公開範囲を記載しています。学習用HDF5は同梱していません。
+
 ## モデルの復元
 
-GitHub APIの送信サイズ制限に対応するため、採用モデルは8 MiB以下の分割ファイルとして保存しています。ダウンロード・展開後、以下を実行すると各部分と全体のSHA256を検証し、`model/best.pt`を復元します。
+GitHub APIの送信サイズ制限に対応するため、採用モデルは8 MiB以下の分割ファイルとして保存しています。ダウンロード・展開後、以下を実行すると各部分と全体のSHA256を検証し、`result/models/best.pt`を復元します。
 
 ```bash
-python model/restore_checkpoint.py
+python result/models/restore_checkpoint.py
 ```

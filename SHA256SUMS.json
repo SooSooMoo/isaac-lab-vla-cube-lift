@@ -1,7 +1,7 @@
 {
   "README.md": {
-    "bytes": 9027,
-    "sha256": "58a7b6f06af40a8cd38959bcf8b8e42a5161a4c5250ccec44e2164626b1c4ae5"
+    "bytes": 9567,
+    "sha256": "dfb99578bd80c591178b5e669496e0de4db3461ac6a13dc0bfb9355de1c6c25d"
   },
   "code/audit_step5_color_replay_recovery_v1.py": {
     "bytes": 14650,
@@ -23,100 +23,116 @@
     "bytes": 29310,
     "sha256": "e6b5049d16d5a80af78cbda6f1a5bdf8d5398a8aba0b01bfb93aa5cbbea422aa"
   },
-  "model/best.pt.part000": {
-    "bytes": 8388608,
-    "sha256": "b7946643c3cd874ac8d9a5242775863f10fdc83ee40e2cf3d31f755a5219882a"
+  "result/evidence/images/blue_cube.png": {
+    "bytes": 954273,
+    "sha256": "c8ef14a81b4b3e4b0dff80ec2cf15c9f8ef6f2b14e0ff12cbf26d32b5840cbac"
   },
-  "model/best.pt.part001": {
-    "bytes": 8388608,
-    "sha256": "4853b2b41dca62db73b1edf03f429c19132f5134342191975fd1ef8b8a274193"
+  "result/evidence/images/red_cube.png": {
+    "bytes": 1019623,
+    "sha256": "f15ff934a613f6e56ff606e2303f040f9396f45b72fad8863c08968b23afac66"
   },
-  "model/best.pt.part002": {
-    "bytes": 8388608,
-    "sha256": "6a084bae71be3862bba09f82ed122bf9cc5da06671858820591f6638e17567be"
+  "result/evidence/images/tmp.txt": {
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
   },
-  "model/best.pt.part003": {
-    "bytes": 8388608,
-    "sha256": "cc3c088019fb22ff593dffdaaee5dc7ec7b14defacd9027e0b15a9e83100f5a5"
-  },
-  "model/best.pt.part004": {
-    "bytes": 8388608,
-    "sha256": "7c952b69e6f0e538afd6fed1a59caa15c023ffd8006338bdc576764558a75791"
-  },
-  "model/best.pt.part005": {
-    "bytes": 7453957,
-    "sha256": "61941124735a04e924dba4b07396ba6fd03c231a7fb5056705084a106392ca40"
-  },
-  "model/checkpoint_parts.json": {
-    "bytes": 1017,
-    "sha256": "2d6b4bf183cb25d46ebba6b9bcfdbae1579adb2dda87a69cd08b1dd302be7dcd"
-  },
-  "model/color_model.py": {
-    "bytes": 4309,
-    "sha256": "283e7a40c85f0864b176eef2d34e4541d7c0bd12271b48dd86b16405836e161a"
-  },
-  "model/color_temporal.py": {
-    "bytes": 929,
-    "sha256": "882a63812e1f5799e62d377b096df4a2f7928ce0f05365f2852c406aa90df6d6"
-  },
-  "model/restore_checkpoint.py": {
-    "bytes": 782,
-    "sha256": "37204a51913bde19fabc80748fcc472da3f02725c4d03abd8486f24978d4c377"
-  },
-  "results/range20_results.json": {
+  "result/evidence/range20_results.json": {
     "bytes": 25999,
     "sha256": "cbea05edf245642e8490f10e8a45e96ef347ed209d0bd72f52ecff2b163b2d71"
   },
-  "results/range20_summary.json": {
+  "result/evidence/range20_summary.json": {
     "bytes": 2011,
     "sha256": "85fe46eae243cff418dcc1e9f690f2799170e628a8861b7cf88bbcef3e1d1f52"
   },
-  "results/recovery_audit.json": {
+  "result/evidence/recovery_audit.json": {
     "bytes": 578,
     "sha256": "e61bbcf6fad3157d589b716fd382663707886d12255ef33140fa1e3def7d5a06"
   },
-  "results/training_protocol.json": {
+  "result/evidence/training_protocol.json": {
     "bytes": 1553,
     "sha256": "1dc60261feebb021daa42da38c05d33b5bf880d818a5d606bc751018932c2d1c"
   },
-  "results/training_summary.json": {
+  "result/evidence/training_summary.json": {
     "bytes": 1560,
     "sha256": "40c87d4499f35c481bbb848ce5ef0d79ebb1c27da5e6741de107eb8b8a2187db"
   },
-  "results/video_results.json": {
+  "result/evidence/video_results.json": {
     "bytes": 6404,
     "sha256": "31620a6d90a4e80d46b98b90cf82635ce424c93304aea42b07e65140d415b38c"
   },
-  "videos/q1_blue.mp4": {
+  "result/evidence/videos/q1_blue.mp4": {
     "bytes": 1303126,
     "sha256": "3a197687d8a2ad324e3d8bc2cf59efb0cbfba9e051819d4a092456960ba06ac3"
   },
-  "videos/q1_red.mp4": {
+  "result/evidence/videos/q1_red.mp4": {
     "bytes": 1312716,
     "sha256": "18c3c84f5ddaa2a807bb189d15d20404e2b83b1e2ed2bf75976178f83c68f7b6"
   },
-  "videos/q2_blue.mp4": {
+  "result/evidence/videos/q2_blue.mp4": {
     "bytes": 1312026,
     "sha256": "82fc0a2236a2114235544581001bfbb1137849949ffa21ffc129208553a1dbbf"
   },
-  "videos/q2_red.mp4": {
+  "result/evidence/videos/q2_red.mp4": {
     "bytes": 1264946,
     "sha256": "41f02f7e536edfc99aff9319cc3009de2d0738765a19c7f42f51c6e40bc63dc2"
   },
-  "videos/q3_blue.mp4": {
+  "result/evidence/videos/q3_blue.mp4": {
     "bytes": 1319214,
     "sha256": "964d68f53d0e70d3f33d5eec9ab79fc9e7faf6184b5be78d970ba88a7fc9dd11"
   },
-  "videos/q3_red.mp4": {
+  "result/evidence/videos/q3_red.mp4": {
     "bytes": 1249307,
     "sha256": "169eb863865010bcb9516e6e6b658ac03f8f96f06e8dd59c720ba48e832b6920"
   },
-  "videos/q4_blue.mp4": {
+  "result/evidence/videos/q4_blue.mp4": {
     "bytes": 1300536,
     "sha256": "332970843ed8f54d2c9e2dcc692a293e4370aa233aacfd99225a734d89faf2c2"
   },
-  "videos/q4_red.mp4": {
+  "result/evidence/videos/q4_red.mp4": {
     "bytes": 1366985,
     "sha256": "df57cbd10f25ffa8b126fe6805ac173bc790db8aebe2ce52cd83c4c9b11c2995"
+  },
+  "result/models/best.pt.part000": {
+    "bytes": 8388608,
+    "sha256": "b7946643c3cd874ac8d9a5242775863f10fdc83ee40e2cf3d31f755a5219882a"
+  },
+  "result/models/best.pt.part001": {
+    "bytes": 8388608,
+    "sha256": "4853b2b41dca62db73b1edf03f429c19132f5134342191975fd1ef8b8a274193"
+  },
+  "result/models/best.pt.part002": {
+    "bytes": 8388608,
+    "sha256": "6a084bae71be3862bba09f82ed122bf9cc5da06671858820591f6638e17567be"
+  },
+  "result/models/best.pt.part003": {
+    "bytes": 8388608,
+    "sha256": "cc3c088019fb22ff593dffdaaee5dc7ec7b14defacd9027e0b15a9e83100f5a5"
+  },
+  "result/models/best.pt.part004": {
+    "bytes": 8388608,
+    "sha256": "7c952b69e6f0e538afd6fed1a59caa15c023ffd8006338bdc576764558a75791"
+  },
+  "result/models/best.pt.part005": {
+    "bytes": 7453957,
+    "sha256": "61941124735a04e924dba4b07396ba6fd03c231a7fb5056705084a106392ca40"
+  },
+  "result/models/checkpoint_parts.json": {
+    "bytes": 1017,
+    "sha256": "2d6b4bf183cb25d46ebba6b9bcfdbae1579adb2dda87a69cd08b1dd302be7dcd"
+  },
+  "result/models/color_model.py": {
+    "bytes": 4309,
+    "sha256": "283e7a40c85f0864b176eef2d34e4541d7c0bd12271b48dd86b16405836e161a"
+  },
+  "result/models/color_temporal.py": {
+    "bytes": 929,
+    "sha256": "882a63812e1f5799e62d377b096df4a2f7928ce0f05365f2852c406aa90df6d6"
+  },
+  "result/models/restore_checkpoint.py": {
+    "bytes": 782,
+    "sha256": "37204a51913bde19fabc80748fcc472da3f02725c4d03abd8486f24978d4c377"
+  },
+  "datasets/README.md": {
+    "bytes": 999,
+    "sha256": "78bd6716567babe49e0c490ae23e3a940ab01131375e01a1691f979a97972247"
   }
 }
