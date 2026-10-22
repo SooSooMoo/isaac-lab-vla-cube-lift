@@ -1,6 +1,6 @@
-# Isaac Lab：Identify colors based on verbal instructions and grasp the cube.
-
 [日本語](README_JPN.md) | English | [Language selection](README.md)
+
+# Isaac Lab：Identify colors based on verbal instructions and grasp the cube.
 
 **A VLA demonstration that selects a red or blue cube from a language instruction, picks it up, and holds it for three seconds.**
 
