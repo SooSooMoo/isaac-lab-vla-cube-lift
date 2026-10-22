@@ -1,4 +1,4 @@
-# Language-Conditioned Cube Picking with Isaac Lab
+# Isaac Lab：Identify colors based on verbal instructions and grasp the cube.
 
 A VLA project that selects a red or blue cube from a language instruction, picks it up, and holds it for three seconds.
 
