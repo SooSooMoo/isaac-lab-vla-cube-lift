@@ -2,6 +2,19 @@
 
 # Isaac Lab：Identify colors based on verbal instructions and grasp the cube.
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="result/evidence/images/red_cube.png" width="100%">
+      <br><b> pick up the red cube </b>
+    </td>
+    <td align="center">
+      <img src="result/evidence/images/blue_cube.png" width="100%">
+      <br><b> pick up the blue cube </b>
+    </td>
+  </tr>
+</table>
+
 **A VLA demonstration that selects a red or blue cube from a language instruction, picks it up, and holds it for three seconds.**
 
 `pick up the red cube` / `pick up the blue cube`
