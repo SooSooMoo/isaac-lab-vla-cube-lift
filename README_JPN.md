@@ -1,6 +1,6 @@
 [English](README_ENG.md) | [言語選択 / Language selection](README.md)
 
-# Isaac Labを用いた言語指示によるCube把持
+# Isaac Lab：言語指示で色を識別してCubeを把持する
 
 <table>
   <tr>
