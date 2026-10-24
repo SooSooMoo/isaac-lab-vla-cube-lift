@@ -137,6 +137,10 @@ The manifest is **a list of references to individual data files**, not a merged 
 
 Cube coordinates and teacher phase indices are not model inputs. The outer script's custom arguments are `--manifest` and `--epochs`.
 
+**What is a GRU?** A GRU (Gated Recurrent Unit) is a neural network that retains past information in an internal state to process sequential data. In this implementation, the temporal GRU receives features derived from images, language, and robot state in sequence, using the observation history to predict the next action.
+
+**Fine-tuning method:** The existing model is fine-tuned through imitation learning (Behavioral Cloning). The visual encoder (ResNet18) remains frozen, while components including language and state processing, feature fusion, and the temporal GRU are updated. Differences from teacher actions are measured using Smooth L1 loss for translation and rotation and binary cross-entropy loss for gripper commands, with AdamW as the optimizer. The 500-step replay context is used only to warm up the GRU state; supervised learning is applied to the subsequent teacher actions.
+
 #### Output
 
 Output directory: `/workspace/step5/color_train_replay_recovery_<generated_suffix>/`
